@@ -1,0 +1,129 @@
+<html>
+  <head>
+    <link href=”https://fonts.google.com/specimen/Merriweather?selection.family=Merriweather” rel=”stylesheet” type=”text/css”>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href = "https://fonts.google.com/specimen/Arsenal" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+    <link rel="stylesheet" type = ""href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+  </head>
+
+  <div class="container-fluid">
+  <header>
+    <div class="fixed_header">
+      <div class="col-xs-3" style="text-align:left">
+        <button class="LOGO_BUTTON">JACKIELUI PORTFOLIO</button></div>
+      <div class="col-xs-3" style="text-align:center"><button class="header_button" id = "About">About</button></div>
+      <div class="col-xs-3" style="text-align:center"><button class="header_button" id="Portfolio">Portfolio</button></div>
+      <div class="col-xs-3" style="text-align:center"><button class="header_button" id="Contact" >Contact</button></div>
+    </div>
+  </header>    
+  <body>
+    <div class="row">
+      <div>
+          <div> <h1 class="headerquote"> "Creativity is the defeat of doubt by action. You're greater than you think."</h1>
+          </div>
+       </div>
+      <div>
+          <p style = "text-align:center"><img src="http://jackiesnacks.weebly.com/uploads/5/7/1/5/57156625/greybackground_1.png"  class="header_image img-responsive"></p>  
+      </div>
+    </div>
+    <div id="Aboutsection">
+      <h1 class="Heading"> ABOUT</h1>
+      <p class="paragraphs">Jackie Lui was born in 1993. As a young child he was curious about the world and sought truth from stories, but he dreamed of bringing imagination to life. This was the highest form of beauty. 
+      
+      He completed a Bachelors of Mechatronics Engineering degree at QUT in 2015 with minors in Robotics and Economics, and has sought to study again. He is currently learning HTML/CSS/JavaScript through FreeCodeCamp. His thirst for knowledge and information unquenchable. This profile page is a dedicated page to showcase Jackie's finest creations and successes.</p>
+    </div>
+    
+    
+    <div id = "Portfoliosection">
+      <h1 class="Heading"> PORTFOLIO</h1>  
+    </div>
+    <div class="container">
+    <div class="row">
+      
+         <div class="col-xs-6">
+        <div id="Bilgy Beagle">
+          <a href = "http://jackiesnacks.weebly.com/programming/january-09th-2017"><img class = "img-responsive images center-block" src="http://jackiesnacks.weebly.com/uploads/5/7/1/5/57156625/bilgy-beagle_orig.png" title ="Bilgy Beagle Tribute Page">               </div><figcaption class="imagetext">Bilgy Beagle Tribute Page</figcaption></a>
+      </div>
+      
+     
+      <div class="col-xs-6">
+        <div id = "Iron_Man_Repulsor_Light_4"><figure>
+          <a href="http://jackiesnacks.weebly.com/iron-man-repulsor-light-project.html"><img class="img-responsive images center-block" src="http://jackiesnacks.weebly.com/uploads/5/7/1/5/57156625/3349571.jpg?462" title="Iron Man Repulsor Light 4"><figcaption class="imagetext">Iron Man Repulsor Light 4</figcaption></figure></a>
+        </div>
+      </div>
+  <div class="col-xs-6">
+        <div id="BUDDY">
+          <a href="http://jackiesnacks.weebly.com/buddy"><img class = "img-responsive images center-block" src="http://jackiesnacks.weebly.com/uploads/5/7/1/5/57156625/5415107.jpg?467" title = "BUDDY"><figcaption class="imagetext">BUDDY</figcaption></a>               </div>
+      </div>
+      <div class="col-xs-6">
+        <div id="dumVee">
+          <a href="http://jackiesnacks.weebly.com/dumvee.html"><img class = "img-responsive images center-block" src="http://jackiesnacks.weebly.com/uploads/5/7/1/5/57156625/dumvee_orig.jpg" title="dumVee"><figcaption class="imagetext">dumVee</figcaption></a>               </div>
+      </div>
+      
+      
+       <div class="col-xs-6">
+        <div id="RB1"><figure>
+          <a href="http://jackiesnacks.weebly.com/rubbish-bin---one"><img class = "img-responsive images center-block" src="http://jackiesnacks.weebly.com/uploads/5/7/1/5/57156625/6914588.jpg?286" title="Robotic Bin 1"><figcaption class="imagetext">Robotic Bin 1</figcaption></a></figure>               
+        </div>
+      </div>
+      
+      
+      
+      <div class="col-xs-6">
+        <div id="linefollower">
+          <a href="http://jackiesnacks.weebly.com/linefollower.html"><img class = "img-responsive images center-block" src="http://jackiesnacks.weebly.com/uploads/5/7/1/5/57156625/linefollower_orig.jpg" title="linefollower"><figcaption class="imagetext">line follower robot</figcaption></a>               </div>
+      </div>
+    </div>
+      </div>
+
+    <div id = "ContactMesection">
+      <br></br>
+      <h1 class="Heading">Contact Me</h1>
+      <div class="rows">
+        <div style="text-align:center">
+          <p class="paragraphs"> Interested in these projects? Please send me a message via <a href="https://au.linkedin.com/in/jackymlui">LinkedIn</a>.
+            </p>
+        </div>
+      </div>  
+    </div>
+      <div> <p class="paragraphs">created by Jackie Lui</p></div>
+      <div> <p class="paragraphs">to read a less fantastical profile of Jackie Lui, <a href="http://jackiesnacks.weebly.com/">click here for his real blog</a> </p></div> 
+  </body>  
+  </div>
+
+  </html>
+
+
+  <script>
+  $(document).ready(function(){
+      $("#About").on("click",function(event) {
+        var offset = -60; //Offset of 20px
+
+        $('html, body').animate({
+            scrollTop: $("#Aboutsection").offset().top + offset
+        }, 2000);
+    });
+
+    $("#Portfolio").on("click",function(event) {
+        var offset = -60; //Offset of 20px
+
+        $('html, body').animate({
+            scrollTop: $("#Portfoliosection").offset().top + offset
+        }, 2000);
+    });
+
+    $("#Contact").on("click",function(event) {
+        var offset = 0; //Offset of 20px
+
+        $('html, body').animate({
+            scrollTop: $("#ContactMesection").offset().top + offset
+        }, 2000);
+    });   
+  });
+    // addClass("animatedBounce");
+  </script>
+
+
+
+
