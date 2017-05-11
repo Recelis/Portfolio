@@ -40,15 +40,15 @@ li a:hover {
 
 /* Text on First Page */
 .titleText{
-  color: #6600cc;
+  color: #e6ccff;
   font-size:300%;
-  text-shadow: 4px 4px 4px #aaa;
+  text-shadow: 0px 0px 12px #bf80ff;
   font-family: 'Titillium Web', sans-serif;
 }
 .headerquote{
   font-size:30; 
   z-index: 100;
-  top: 60%;
+  top: 55%;
   left: 25%;
   right: 25%;
   text-align:center;
