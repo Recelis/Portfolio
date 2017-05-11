@@ -45,6 +45,9 @@ li a:hover {
   text-shadow: 0px 0px 12px #bf80ff;
   font-family: 'Titillium Web', sans-serif;
 }
+.titleText:hover{
+  text-shadow: 0px 0px 20px #bf80ff;
+}
 .headerquote{
   font-size:30; 
   z-index: 100;
