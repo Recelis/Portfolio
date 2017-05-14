@@ -1,7 +1,8 @@
 
-.body{
+body{
   margin:0px;
   padding:0px;
+  background-color:	#00008B;
 }
 
 /****************************************************************************** Header Section ********************************************/
@@ -48,7 +49,7 @@ li {
   margin: 0px;
   padding:0px;
   width:100%;
-  border:0;
+  border:0px;
   z-index: -5000; /* goes behind text*/
 }
 
@@ -65,15 +66,14 @@ li {
 
 /****************************************************************************** General **************************************************/
 .sectionHeading{
-  text-align:Left;
+  text-align:left;
   padding-left:30px;
-  font-family:Merriweather, Times New Roman;
+  font-family: 'Pacifico', cursive;
 }
 .images{
-  text-align:left;
-  width:200px;
+  text-align:center;
   height:auto;
-  max-width: 300px;
+  max-width: 200px;
   border-radius:5px;
 }
 .text{
@@ -83,15 +83,26 @@ li {
   text-align:left;
   margin-left: auto;
   margin-right: auto;
+  color: #A9A9A9;
 }
 /****************************************************************************** About Section ********************************************/
 #aboutSection{
-  border-color:grey;
-  border-width:5px;
+  border-style: solid;
+  border-color:#DCDCDC;
+  border-width:0px 0px 3px 0px;
+  padding:0px 25% 20px 25%;
+  background-color:white;
 }                                       
 
 
 /****************************************************************************** Projects Section ********************************************/
 .imagetext{
   text-align:center;
+}
+
+#projectSection{
+  margin:0px 25% 20px 25%;
+}
+.subsection{
+  font-family: 'Pacifico', cursive;
 }
