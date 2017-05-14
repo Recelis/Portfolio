@@ -10,40 +10,25 @@
     <script src="./portfolio.js"></script>
   </head>
 
-  <div class="container-fluid" id = "Home">
-  <header>
-    <div>
-        <ul>
-          <li><button class="header_button" id="Contact" onclick="autoScroll(this)">Contact</button></li>
-          <li><button class="header_button" id="Portfolio" onclick="autoScroll(this)">Portfolio</button></li>
-          <li><button class="header_button" id = "About" onclick="autoScroll(this)">About</button></li>
-          <li><button class="header_button" id = "Top" onclick="autoScroll(this)"> &#9883 Home</button></li>
-        </ul>
-    </div>
-  </header>   
-
-
-
   <body>
-    <div>
-      <div> 
-        <h1 class="headerquote"> Jacky Lui's <br><span class = "titleText">PROJECT PORTFOLIO</span></h1>
-      </div>
-
-      <div>
-          <p style = "text-align:center"><img src="images/space.jpg"  class="header_image img-responsive"></p>  
-      </div>
+    <ul>
+        <li><button class="header_button" id="Contact" onclick="autoScroll(this)">Contact</button></li>
+        <li><button class="header_button" id="Portfolio" onclick="autoScroll(this)">Portfolio</button></li>
+        <li><button class="header_button" id = "About" onclick="autoScroll(this)">About</button></li>
+        <li><button class="header_button" id = "Top" onclick="autoScroll(this)"> &#9883 Home</button></li>
+    </ul>
+    <div id = "Home">
+      <h1 class="headerquote"> Jacky Lui's <br><span class = "titleText">PROJECT PORTFOLIO</span></h1>
+      <img src="images/space.jpg"  class="header_image img-responsive">  
     </div>
 
     <div id="Aboutsection">
       <h1 class="Heading"> ABOUT</h1>
-
-      <div class = "rows">
-        <div class = "col-xs-6"> <img src = "images/jacky.jpg" title = "Jacky Lui" class = "images"></div>
-      </div>
-      
-      <div class = "col-xs-6">
-        <p class="paragraphs"> Hi, I am Jacky Lui, a javascript developer and microcontroller programmer. </p>
+      <div class="container-fluid">
+        <div class = "rows">
+          <div class = "col-xs-4 images"><img src = "images/Jacky.jpg" title = "Jacky Lui" class = "images"></div>
+          <div class = "col-xs-8"><p class="paragraphs"> Hi, I am Jacky Lui, a javascript developer and microcontroller programmer. </p></div>
+        </div>
       </div>
     </div>
     
