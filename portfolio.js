@@ -1,39 +1,42 @@
- $(document).ready(function(){
-      $("#About").on("click",function(event) {
-        var offset = -60; //Offset of 20px
+//  $(document).ready(function(){
+//       $("#About").on("click",function(event) {
+//         var offset = -60; //Offset of 20px
 
-        $('html, body').animate({
-            scrollTop: $("#Aboutsection").offset().top + offset
-        }, 2000);
-    });
+//         $('html, body').animate({
+//             scrollTop: $("#Aboutsection").offset().top + offset
+//         }, 2000);
+//     });
 
-    $("#Portfolio").on("click",function(event) {
-        var offset = -60; //Offset of 20px
+//     $("#Portfolio").on("click",function(event) {
+//         var offset = -60; //Offset of 20px
 
-        $('html, body').animate({
-            scrollTop: $("#Portfoliosection").offset().top + offset
-        }, 2000);
-    });
+//         $('html, body').animate({
+//             scrollTop: $("#Portfoliosection").offset().top + offset
+//         }, 2000);
+//     });
 
-    $("#Contact").on("click",function(event) {
-        var offset = 0; //Offset of 20px
+//     $("#Contact").on("click",function(event) {
+//         var offset = 0; //Offset of 20px
 
-        $('html, body').animate({
-            scrollTop: $("#ContactMesection").offset().top + offset
-        }, 2000);
-    });  
+//         $('html, body').animate({
+//             scrollTop: $("#ContactMesection").offset().top + offset
+//         }, 2000);
+//     });  
 
-    $("#Top").on("click",function(event) {
-        var offset = 0; //Offset of 20px
+//     $("#Top").on("click",function(event) {
+//         var offset = 0; //Offset of 20px
 
-        $('html, body').animate({
-            scrollTop: $("#Home").offset().top + offset
-        }, 2000);
-    });
+//         $('html, body').animate({
+//             scrollTop: $("#Home").offset().top + offset
+//         }, 2000);
+//     });
 
-  });
-  
-  function autoScroll(){
-       
+//   });
+
+  function autoScroll(buttonPressed){
+    var offset = -60;
+    console.log(buttonPressed.id);
+    var element = document.getElementById(buttonPressed.id);
+    element.scrollTo();
+    var offset = 0;
   }
-  document.getElementById
