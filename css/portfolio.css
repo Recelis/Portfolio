@@ -4,7 +4,7 @@
   padding:0px;
 }
 
-
+/****************************************************************************** Header Section ********************************************/
 ul {
     margin: 0px;
     padding: 0px;
@@ -19,7 +19,7 @@ li {
     float: right;
 }
 
-
+/****************************************************************************** Top Section ********************************************/
 /* Text on First Page */
 .titleText{
   color: #e6ccff;
@@ -38,16 +38,16 @@ li {
   right: 25%;
   text-align:center;
   position: absolute;
-  color:red;
   font-family: 'Pacifico', cursive;
+  color:red;
 }
 
+/* Space Image */
 .header_image{
   display:block;
   margin: 0px;
   padding:0px;
   width:100%;
-  height:auto;
   border:0;
   z-index: -5000; /* goes behind text*/
 }
@@ -57,28 +57,18 @@ li {
   color:white;
   border:none;
   font-family: 'Pacifico', cursive;
-  padding: 8px;
 }
 
 .header_button:hover{
-  background:#DCDCDC;
+  color:grey;
 }
-.Heading{
+
+/****************************************************************************** General **************************************************/
+.sectionHeading{
   text-align:Left;
   padding-left:30px;
   font-family:Merriweather, Times New Roman;
 }
-
-.paragraphs{
-  font-family:Merriweather, Times New Roman;
-  width:100%;
-  text-align:left;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom:100px;
-  background-color:red;
-}
-
 .images{
   text-align:left;
   width:200px;
@@ -86,7 +76,22 @@ li {
   max-width: 300px;
   border-radius:5px;
 }
+.text{
+  font-family:Merriweather, Times New Roman;
+  width:100%;
+  font-size:20px;
+  text-align:left;
+  margin-left: auto;
+  margin-right: auto;
+}
+/****************************************************************************** About Section ********************************************/
+#aboutSection{
+  border-color:grey;
+  border-width:5px;
+}                                       
 
+
+/****************************************************************************** Projects Section ********************************************/
 .imagetext{
-  text-align:right;
+  text-align:center;
 }
