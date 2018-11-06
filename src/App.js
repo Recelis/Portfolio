@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import { Grid } from "react-bootstrap"
+import { Grid, Row, Col } from "react-bootstrap"
 
 import Headline from "./headline/headline"
 import Title from "./story/title"
@@ -17,14 +17,26 @@ class App extends Component {
     return (
       <Grid>
         <header>
+          <hr/>
           <Headline />
+          <hr/>
         </header>
         <section>
           <article>
-            <Title /> 
-            <SubTitle />
-            <MainImage />
+
+             
+            
+            <Row className = "show-grid">
+                    <Col xs={12} md={6}>
+                      <Title />
+                      <SubTitle />
+                    </Col>
+                    <Col xs={12} md={6}>
+                        <MainImage />
+                    </Col>
+            </Row>
           </article>
+          <p>See more under the fold.</p>
           <MainBody />
         </section>
         <footer>

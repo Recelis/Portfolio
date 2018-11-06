@@ -6,7 +6,7 @@ import Logo from "./logo";
 export default class Banner extends Component{
     render(){
         return(
-            <h1>THE DAILY <span><Logo></Logo></span>PORTFOLIO</h1>
+            <h1 className = "banner"><em className = "banner-text">THE DAILY <Logo></Logo>PORTFOLIO</em></h1>
         )
     }
 } 
