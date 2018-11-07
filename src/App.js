@@ -4,9 +4,9 @@ import './App.css';
 
 import { Grid, Row, Col } from "react-bootstrap"
 
-import Headline from "./headline/headline"
-import Title from "./story/title"
-import SubTitle from "./story/subTitle"
+import Title from "./Atitle/title"
+import Heading from "./story/heading"
+import SubHeading from "./story/subHeadiing"
 import MainImage from "./story/mainImage"
 import MainBody from "./story/mainBody"
 import Footer from "./footer/footer"
@@ -15,28 +15,28 @@ import Footer from "./footer/footer"
 class App extends Component {
   render() {
     return (
-      <Grid>
+      <Grid fluid>
         <header>
           <hr/>
-          <Headline />
+          <Title />
           <hr/>
         </header>
         <section>
-          <article>
-
-             
-            
-            <Row className = "show-grid">
-                    <Col xs={12} md={6}>
-                      <Title />
-                      <SubTitle />
-                    </Col>
-                    <Col xs={12} md={6}>
-                        <MainImage />
-                    </Col>
+          <article className = "headingContainer">
+            <Row>
+              <Col xs={12} md={12}>
+                <Heading />
+              </Col>
+            </Row>
+            <Row>
+              <Col xs={12} md={3}>
+                  <MainImage />
+              </Col>
+              <Col xs={12} md={6}>
+                <SubHeading />
+              </Col>
             </Row>
           </article>
-          <p>See more under the fold.</p>
           <MainBody />
         </section>
         <footer>

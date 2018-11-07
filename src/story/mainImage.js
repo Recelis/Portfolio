@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 
 import { Image } from "react-bootstrap" 
-import image from "../images/mainimage.png"
+import image from "../images/jacky.png"
 
 export default class MainImage extends Component{
     render(){
