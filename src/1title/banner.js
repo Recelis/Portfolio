@@ -11,7 +11,7 @@ export default class Banner extends Component{
     }
     render(){
         return(
-            <h1 className = "logo">The Web Portfolio</h1>
+            <h1 className = "logo">The Jacky Portfolio</h1>
         )
     }
 } 
