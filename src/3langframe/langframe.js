@@ -19,47 +19,49 @@ export default class LangFrame extends Component{
                         <h3 className = "articleHeading">Languages and Frameworks</h3>
                     </Col>
                 </Row>
-                <Row>
-                    <Col xs = {12} md = {4}>
-                        <Skill 
-                            skill = "React"
-                            skillImg = {reactImg}
-                        />
-                    </Col>
-                    <Col xs = {12} md = {4}>
-                        <Skill 
-                            skill = "Redux"
-                            skillImg = {reduxImg}
-                        />
-                    </Col>
-                    <Col xs = {12} md = {4}>
-                        <Skill 
-                            skill = "HTML5"
-                            skillImg = {htmlImg}
-                        />
-                    </Col>
-                </Row>
-                <Row>
-                    <Col xs = {12} md = {4}>
-                        <Skill 
-                            skill = "Javascript"
-                            skillImg = {jsImg}
-                        />
-                    </Col>
-                    <Col xs = {12} md = {4}>
-                        <Skill 
-                            skill = "CSS"
-                            skillImg = {cssImg}
-                        />
-                    </Col>
-                    <Col xs = {12} md = {4}>
-                        <Skill  
-                            skill = "Bootstrap"
-                            skillImg = {bootstrapImg}
-                        />
-                    </Col>
-                </Row>
-                <hr/>
+                <div className = "langFrame">
+                    <Row>
+                        <Col xs = {12} md = {4}>
+                            <Skill 
+                                skill = "React"
+                                skillImg = {reactImg}
+                            />
+                        </Col>
+                        <Col xs = {12} md = {4}>
+                            <Skill 
+                                skill = "Redux"
+                                skillImg = {reduxImg}
+                            />
+                        </Col>
+                        <Col xs = {12} md = {4}>
+                            <Skill 
+                                skill = "HTML5"
+                                skillImg = {htmlImg}
+                            />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col xs = {12} md = {4}>
+                            <Skill 
+                                skill = "Javascript"
+                                skillImg = {jsImg}
+                            />
+                        </Col>
+                        <Col xs = {12} md = {4}>
+                            <Skill 
+                                skill = "CSS"
+                                skillImg = {cssImg}
+                            />
+                        </Col>
+                        <Col xs = {12} md = {4}>
+                            <Skill  
+                                skill = "Bootstrap"
+                                skillImg = {bootstrapImg}
+                            />
+                        </Col>
+                    </Row>
+                    {/* <hr/> */}
+                </div>
             </Grid>
         )
     }

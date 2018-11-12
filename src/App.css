@@ -47,10 +47,20 @@
 .articleHeading{
   font-family: 'Oswald', sans-serif;
   font-size:30px;
+  font-style:italic;
+  color:white;
   margin-bottom:20px;
+  padding:10px;
+  background-color:grey;
 }
 
 /* Skills */
+
+.langFrame{
+  border-style: solid;
+  border-color: rgb(231, 231, 231);
+  border-width: 0px 1px 0px 1px;
+}
 
 .skill{
   text-align:center;

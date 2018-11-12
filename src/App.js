@@ -36,6 +36,7 @@ class App extends Component {
               </Col>
             </Row>
         </section>
+        <hr/>
         <section>
           <LangFrame />
         </section>
