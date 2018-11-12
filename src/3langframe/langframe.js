@@ -10,7 +10,7 @@ import jsImg from "../images/javascript.jpeg"
 import cssImg from "../images/css3.png"
 import bootstrapImg from "../images/bootstrap.svg"
 
-export default class MainBody extends Component{
+export default class LangFrame extends Component{
     render(){
         return(
             <Grid>

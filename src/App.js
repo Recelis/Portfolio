@@ -7,7 +7,7 @@ import Title from "./1title/title"
 import Heading from "./2story/heading"
 import SubHeading from "./2story/subHeadiing"
 import MainImage from "./2story/mainImage"
-import MainBody from "./3langframe/mainBody"
+import LangFrame from "./3langframe/langframe"
 import Footer from "./footer/footer"
 
 
@@ -36,7 +36,7 @@ class App extends Component {
               </Col>
             </Row>
           </article>
-          <MainBody />
+          <LangFrame />
         </section>
         <footer>
           <Footer />
