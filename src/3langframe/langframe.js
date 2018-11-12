@@ -59,6 +59,7 @@ export default class LangFrame extends Component{
                         />
                     </Col>
                 </Row>
+                <hr/>
             </Grid>
         )
     }

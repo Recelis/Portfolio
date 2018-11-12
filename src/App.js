@@ -8,7 +8,8 @@ import Heading from "./2story/heading"
 import SubHeading from "./2story/subHeadiing"
 import MainImage from "./2story/mainImage"
 import LangFrame from "./3langframe/langframe"
-import Footer from "./footer/footer"
+import Projects from "./4projects/projects"
+import Footer from "./5footer/footer"
 
 
 class App extends Component {
@@ -20,8 +21,7 @@ class App extends Component {
           <Title />
           <hr/>
         </header>
-        <section>
-          <article className = "headingContainer">
+        <section className = "headingContainer">
             <Row>
               <Col xs={12} md={12}>
                 <Heading />
@@ -35,8 +35,12 @@ class App extends Component {
                 <SubHeading />
               </Col>
             </Row>
-          </article>
+        </section>
+        <section>
           <LangFrame />
+        </section>
+        <section>
+          <Projects />
         </section>
         <footer>
           <Footer />
