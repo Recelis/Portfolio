@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import { Grid, Row, Col } from "react-bootstrap"
 
-import Title from "./Atitle/title"
-import Heading from "./story/heading"
-import SubHeading from "./story/subHeadiing"
-import MainImage from "./story/mainImage"
-import MainBody from "./story/mainBody"
+import Title from "./1title/title"
+import Heading from "./2story/heading"
+import SubHeading from "./2story/subHeadiing"
+import MainImage from "./2story/mainImage"
+import MainBody from "./3langframe/mainBody"
 import Footer from "./footer/footer"
 
 
