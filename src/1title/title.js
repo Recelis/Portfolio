@@ -25,13 +25,13 @@ export default class Title extends Component{
                     </Col>
                 </Row>
                 <Row>
-                    <Col  xs={4} md={4}>
+                    <Col  xs={12} md={4}>
                         <p className = "tagline"><b>{day + ", " + monthString + " " + year}</b></p>
                     </Col>
-                    <Col  xs={4} md={4}>
+                    <Col  xs={12} md={4}>
                         <p className = "tagline"><em>The Ello of Web Portfolios</em></p>
                     </Col>
-                    <Col  xs={4} md={4}>
+                    <Col  xs={12} md={4}>
                         <p className = "tagline"><b>Proudly supported by AdvertiserCorp</b></p>
                     </Col>
                 </Row>`

@@ -57,9 +57,9 @@
 /* Skills */
 
 .langFrame{
-  border-style: solid;
+  /* border-style: solid;
   border-color: rgb(231, 231, 231);
-  border-width: 0px 1px 0px 1px;
+  border-width: 0px 1px 0px 1px; */
 }
 
 .skill{
@@ -71,7 +71,7 @@
 .skillImg{
   margin-left:auto;
   margin-right:auto;
-  max-width:25%;
+  max-width:15%;
 }
 
 /*  Projects */
@@ -80,9 +80,9 @@
 }
 
 .column{
-  border-style: solid;
-  border-color: rgb(231, 231, 231);
-  border-width: 0px 1px 1px 1px;
+  /* border-style: solid; */
+  /* border-color: rgb(231, 231, 231); */
+  /* border-width: 0px 1px 1px 1px; */
 }
 
 .projectStory{
@@ -108,3 +108,9 @@
 .projectShort{
 
 }
+
+.sponsor{
+  border-color: rgb(245, 0, 0);
+  border-width: 1px;
+}
+

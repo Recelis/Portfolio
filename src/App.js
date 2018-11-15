@@ -9,7 +9,8 @@ import SubHeading from "./2story/subHeadiing"
 import MainImage from "./2story/mainImage"
 import LangFrame from "./3langframe/langframe"
 import Projects from "./4projects/projects"
-import Footer from "./5footer/footer"
+import Sponsors from "./5sponsors/sponsors"
+import Footer from "./6footer/footer"
 
 
 class App extends Component {
@@ -42,6 +43,9 @@ class App extends Component {
         </section>
         <section>
           <Projects />
+        </section>
+        <section>
+          <Sponsors />
         </section>
         <footer>
           <Footer />
