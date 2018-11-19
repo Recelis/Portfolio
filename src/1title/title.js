@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import Banner from "./banner";
 
-import { Row, Col } from "react-bootstrap"
+import { Grid, Row, Col } from "react-bootstrap"
 
 
 let d;
@@ -18,7 +18,7 @@ export default class Title extends Component{
         monthString = convertToMonthString(month);
         year = d.getFullYear();
         return(
-            <div>
+            <Grid>
                 <Row>
                     <Col xs={12} md={12}>
                         <Banner />
@@ -35,7 +35,7 @@ export default class Title extends Component{
                         <p className = "tagline"><b>Proudly supported by AdvertiserCorp</b></p>
                     </Col>
                 </Row>`
-            </div>
+            </Grid>
         )
     }
     
