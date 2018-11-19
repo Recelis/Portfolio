@@ -14,7 +14,7 @@ export default class BottomAds extends Component{
         return(
         <div className = "sponsor">
         <Image className = "bottomAdImg" src = {this.props.img} alt= {this.props.company + " image"} responsive></Image>
-            <a className = "bottomAdHead" href = {this.props.contactDetails}>{this.props.headline}</a>
+            <p className = "bottomAdHead"><a href = {this.props.contactDetails}>{this.props.headline}</a></p>
             <p className = "bottomAdCompany">{this.props.company}</p>
         </div>
         )

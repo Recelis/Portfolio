@@ -1,4 +1,21 @@
 
+/* Styling on Elements Direct */
+a{
+  color:rgb(58, 58, 58);
+  text-decoration: none !important;
+}
+
+a:hover{
+  color:rgb(68, 68, 253);
+}
+
+p{
+  font-size:16px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+/* Major Parts */ 
 .App {
   text-align: center;
   margin:0px;
@@ -14,8 +31,8 @@
 .logo{
   /* background: #ff0000; */
   color:rgb(36, 36, 36);
-  font-size:60px;
-  height:60px;
+  font-size:40px;
+  height:40px;
   /* line-height:3px; */
   text-align:center;
   /* text-shadow:1px 1px black; */
@@ -33,7 +50,7 @@
 
 .heading{
   padding-top:50px;
-  font-size:130px;
+  font-size:50px;
   font-family: 'Bangers', cursive;
   text-align:center;
   color:rgb(126, 126, 126)
@@ -43,6 +60,10 @@
   font-size:30px;
   font-family: 'Oswald', sans-serif;
 }
+
+/* .mainImage{
+  width:30%;
+} */
 
 .articleHeading{
   font-family: 'Oswald', sans-serif;
@@ -93,24 +114,83 @@
   font-size:24px;
   font-family: 'Oswald', sans-serif;
   margin-top:0px;
-  /* text-align:center; */
+  text-align:center;
+  font-weight: bold;
 }
 
 .projectImg{
-  /* max-height:200px;
-  min-width:300px; */
+  width:50%;
+  margin-right:auto;
+  margin-left:auto;
 }
 
 .projectText{
-  /* text-align:center; */
+  text-align:center;
 }
 
 .projectShort{
 
 }
 
-.sponsor{
+/* .sponsor{
   border-color: rgb(245, 0, 0);
   border-width: 1px;
+} */
+
+.bottomAdImg{
+  width:50%;
+  margin-right:auto;
+  margin-left:auto;
 }
 
+.bottomAdHead{
+  text-align:center;
+  width:50%;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.bottomAdCompany{
+  text-align:center;
+}
+
+.copyRight{
+  color:grey;
+  width:50%;
+  margin-right:auto;
+  margin-left:auto;
+  text-align:center;
+}
+
+
+@media (min-width: 768px) {  
+  .logo{
+    font-size:60px;
+    height:60px;
+  }
+  .heading{
+    font-size:130px;
+  }
+  .projectHeading{
+    text-align:left;
+  }
+  .projectImg{
+    width:100%;
+  }
+  .projectText{
+    text-align:left;
+  }
+  .bottomAdImg{
+    width:100%;
+  }
+  
+  .bottomAdHead{
+    text-align:left;
+    width:100%;
+  }
+  
+  .bottomAdCompany{
+    text-align:left;
+  }
+  
+}

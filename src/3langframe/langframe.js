@@ -21,19 +21,19 @@ export default class LangFrame extends Component{
                 </Row>
                 <div className = "langFrame">
                     <Row>
-                        <Col xs = {12} md = {4}>
+                        <Col xs = {4} md = {4}>
                             <Skill 
                                 skill = "React"
                                 skillImg = {reactImg}
                             />
                         </Col>
-                        <Col xs = {12} md = {4}>
+                        <Col xs = {4} md = {4}>
                             <Skill 
                                 skill = "Redux"
                                 skillImg = {reduxImg}
                             />
                         </Col>
-                        <Col xs = {12} md = {4}>
+                        <Col xs = {4} md = {4}>
                             <Skill 
                                 skill = "HTML5"
                                 skillImg = {htmlImg}
@@ -41,19 +41,19 @@ export default class LangFrame extends Component{
                         </Col>
                     </Row>
                     <Row>
-                        <Col xs = {12} md = {4}>
+                        <Col xs = {4} md = {4}>
                             <Skill 
                                 skill = "Javascript"
                                 skillImg = {jsImg}
                             />
                         </Col>
-                        <Col xs = {12} md = {4}>
+                        <Col xs = {4} md = {4}>
                             <Skill 
                                 skill = "CSS"
                                 skillImg = {cssImg}
                             />
                         </Col>
-                        <Col xs = {12} md = {4}>
+                        <Col xs = {4} md = {4}>
                             <Skill  
                                 skill = "Bootstrap"
                                 skillImg = {bootstrapImg}

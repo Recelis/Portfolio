@@ -29,10 +29,10 @@ class App extends Component {
               </Col>
             </Row>
             <Row>
-              <Col xs={12} md={3}>
+              <Col xs={5} md={3}>
                   <MainImage />
               </Col>
-              <Col xs={12} md={6}>
+              <Col xs={6} md={6}>
                 <SubHeading />
               </Col>
             </Row>
