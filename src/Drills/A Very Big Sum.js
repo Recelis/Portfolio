@@ -11,3 +11,5 @@ function aVeryBigSum(ar) {
 
 let total = aVeryBigSum(array);
 console.log(total);
+
+// finished in 9:25
