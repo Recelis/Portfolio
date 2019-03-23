@@ -8,6 +8,7 @@ import ProjectShort from "./projectShort"
 // images
 import Opposts from "../images/village.jpg"
 import PizzaAndChills from "../images/pizza.png"
+import Drills from "../images/Drills.jpg"
 import Geodi from "../images/Geodi.png"
 import Calculator from "../images/calculator.png"
 import BilgyBeagle from "../images/BilgyBeagle.png"
@@ -21,7 +22,8 @@ const projectText = {
     Geodi:"A home page",
     Calculator:"Javascript Built Calculator",
     BilgyBeagle:"a tribute page built with HTML and CSS",
-    RandomQuote:"using Ajax to call from external server"
+    RandomQuote:"using Ajax to call from external server",
+    Drills: "I'm working to improve my coding/web dev skills like how an athlete trains themselves. Check out this page to see what things I'm doing to prepare.(Still need to build react-router into this, to connect page)"
 }
 
 const projectLink = {
@@ -99,6 +101,14 @@ export default class Projects extends Component{
                                 projectImg = {PizzaAndChills}
                                 projectText = {projectText.PizzaAndChills}
                                 projectLink = {projectLink.PizzaAndChills}
+                        />
+                    </Row>
+                    <Row>
+                        <ProjectStory 
+                                project = "Drills"
+                                projectImg = {Drills}
+                                projectText = {projectText.Drills}
+                                projectLink = {projectLink.Drills}
                         />
                     </Row>
                 </Col>      
