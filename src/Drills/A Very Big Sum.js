@@ -1,15 +1,13 @@
-let array = [
-    1000000001, 1000000002, 1000000003, 1000000004,1000000005
-]
-// reduce function
-function aVeryBigSum(ar) {
-    console.log(ar);
-    return ar.reduce((prev, curr) => {
-        return curr + prev;
-    })
+let arr = [1000000001, 1000000002, 1000000003, 1000000004, 1000000005];
+
+function aVeryBigSum(ar){
+    let output = ar.reduce((prev, curr) => {
+        return curr += prev;
+    });
+    console.log(output);
+    return output;
 }
 
-let total = aVeryBigSum(array);
-console.log(total);
+// finished in 2:35
 
-// finished in 9:25
+aVeryBigSum(arr);

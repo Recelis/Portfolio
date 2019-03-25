@@ -1,19 +1,21 @@
-'use strict';
-let input = [ [ 11, 2, 4 ], [ 4, 5, 6 ], [ 10, 8, -12 ] ];
+let arr = [[11, 2, 4],
+    [4, 5, 6],
+    [10, 8, -12]];
 
-function diagonalDifference(arr) {
-    console.log(arr);
-    let sumLeftToRight = 0;
-    let sumRightToLeft = 0;
-    for (let ii = 0; ii < arr.length; ii++){
-        sumLeftToRight += arr[ii][ii];
+function DiagonalDifference(ar){
+    let leftToRight = 0;
+    for (let ii =0; ii < ar.length; ii ++){
+        leftToRight += ar[ii][ii]; 
     }
-    for (let ii = 0; ii < arr.length; ii++){ // for loop counting
-        sumRightToLeft += arr[ii][arr.length -1 -ii];// back to front counting
+    console.log(leftToRight);
+    let rightToLeft = 0;
+    for (let ii = 0; ii < ar.length; ii ++){ // for loop counting
+        rightToLeft += ar[ii][ar.length - ii -1]; // back to front counting
     }
-    return Math.abs(sumLeftToRight - sumRightToLeft);
+    console.log(rightToLeft);
+    return Math.abs(leftToRight - rightToLeft);
 }
 
-let output = diagonalDifference(input);
-console.log(output);
-// 11:30 
+let total = DiagonalDifference(arr);
+console.log(total);
+// 5:18 
