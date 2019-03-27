@@ -1,4 +1,4 @@
-let s = "07:05:45PM";
+let s = "12:05:45AM";
 
 function timeConversion(s) {
     // get hour
@@ -8,9 +8,13 @@ function timeConversion(s) {
     // modify if need be
     if (AP === "P"){
         hour = parseInt(hour);
-        hour += 12;
+        if (hour !== 12) hour += 12; // edge case 12:00AM
         hour = hour.toString();
     } 
+    if (AP === "A"){
+        if (hour === "12") hour = "00"; // edge case 12:00AM
+    }
+    
     return hour +":"+ s.slice(3,8);
     
 }
