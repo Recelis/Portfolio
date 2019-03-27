@@ -6,7 +6,7 @@ let n = s.length;
 function countingValleys(n, s) {
     let numValleys = 0;
     let newValley = false;
-    let level = 0;
+    let level = 0; // idea of a tracker for level
     for (let ii =0; ii < s.length; ii++){
         if (s[ii] === "U") {
             if (level === -1) numValleys++;
