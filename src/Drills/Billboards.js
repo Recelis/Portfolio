@@ -4,11 +4,11 @@ let k = 2; // k consecutive values
 
 
 function billboards(k, revenue){
-    recursiveProb(profit,0,revenue);
+    recursiveProb(0,revenue);
 
 }
 
-function recursiveProb(profit,index,queue){
+function recursiveProb(index,queue){
     if (queue.length === 0) return 0;
     else {
         for (let ii =index; ii < queue.length; ii++){
@@ -17,9 +17,9 @@ function recursiveProb(profit,index,queue){
         console.log(queue);
         console.log(shifted);
         // checkForGreaterThanKConsec
-        // if true return profit + billbords(k,revenue);
+        // if true continue
 
-        // else return profit item + billboards(k,revenue);
+        // else return q = max(q, item + billboards(k,revenue)); for all values in for loop
         }
         
     }
