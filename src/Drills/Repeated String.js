@@ -1,23 +1,28 @@
 let s = "aba";
-n = 10000000000000;
+n = 10;
 function repeatedString(s,n){
-    let repeated = [];
     // calculate number of times needed to repeated string
-    let repeatTimes = Math.ceil(n/s.length+1);
+    let repeatTimes = Math.floor(n/s.length);
     console.log(repeatTimes);
-    for(let ii =0; ii < repeatTimes; ii++){
-        repeated += s;
-    }
+    // find number of a's in string
+    let ass = s.match(/[a]/g);
+    if (ass === null) ass = 0;
+    else{
+        ass = ass.length;
+    } 
+    let flooredAs = ass*repeatTimes;
+    console.log(flooredAs);
+    console.log(n%s.length);
+    // get a's in modString
+    let modString = s.slice(0,n%s.length)
+    console.log(modString);
+    // get a's in modString
+    let newAss = modString.match(/[a]/g);
+    if (newAss === null) newAss = 0;
+    else newAss = newAss.length;
+    return newAss + flooredAs;
     
-
-    // only use n characters
-
-    repeated= repeated.slice(0, n);
-    console.log(repeated);
-    // locate number of a's using regex
-    let As = repeated.match(/[a]/g);
-    console.log(As);
-    return As.length;
 }
 
 console.log(repeatedString(s,n));
+// 55:58
