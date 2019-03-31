@@ -16,9 +16,7 @@ export default class Portfolio extends Component{
         return(
             <Grid fluid>
         <header>
-          <hr/>
           <Title />
-          <hr/>
         </header>
         <section className = "headingContainer">
             <Row>
@@ -27,12 +25,13 @@ export default class Portfolio extends Component{
               </Col>
             </Row>
             <Row>
-              <Col xs={5} md={3}>
-                  <MainImage />
-              </Col>
-              <Col xs={6} md={6}>
+            <Col xs={12} md={12}>
                 <SubHeading />
               </Col>
+              <Col xs={12} md={12}>
+                  <MainImage />
+              </Col>
+              
             </Row>
         </section>
         <hr/>

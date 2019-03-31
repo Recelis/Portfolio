@@ -1,5 +1,20 @@
 
+/* Grid Styling */
+.Grid{
+  margin:0px;
+  padding:0px;
+}
+
+.container-fluid{
+  margin:0px;
+  padding:0px;
+}
 /* Styling on Elements Direct */
+h1{
+  margin:0px;
+  padding:0px;
+}
+
 a{
     color:rgb(58, 58, 58);
     text-decoration: none !important;
@@ -22,26 +37,28 @@ a{
     padding:0px;
   }
   
-  .Grid{
-    margin:0px;
-    padding:0px;
-  }
+  
   
   
   .logo{
-    /* background: #ff0000; */
-    color:rgb(36, 36, 36);
-    font-size:20px;
-    height:20px;
-    /* line-height:3px; */
     text-align:center;
-    /* text-shadow:1px 1px black; */
+    font-size:15px;
+    /* background: #ff0000; */
+    margin-top:10px;
+     color:rgb(36, 36, 36);
+    font-size:32px;
+    /* font-family: 'Roboto Mono', monospace; */
     font-family: 'Kumar One Outline', cursive;
-    border-radius:1px;
+  }
+
+  #title-time{
+    display:none;
   }
   
   .tagline{
     text-align:center;
+    font-size:15px;
+    margin-top:20px;
   }
   
   .headingContainer{
@@ -49,21 +66,22 @@ a{
   }
   
   .heading{
-    padding-top:50px;
+    padding-top:30px;
     font-size:50px;
     font-family: 'Bangers', cursive;
     text-align:center;
-    color:rgb(126, 126, 126)
+    color:rgb(165, 165, 165)
   }
   
   .subHeading{
-    font-size:22px;
+    font-size:18px;
     font-family: 'Oswald', sans-serif;
+    text-align:center;
   }
   
-  /* .mainImage{
-    width:30%;
-  } */
+  .mainImage{
+    width:50%;
+  }
   
   .articleHeading{
     font-family: 'Oswald', sans-serif;
@@ -163,16 +181,18 @@ a{
   }
   
   
-  @media (min-width: 768px) {  
-    .logo{
-      font-size:60px;
-      height:60px;
-    }
+  @media (min-width: 768px) { /* websize */
+    #title-time{
+      display:block;
+    }  
     .heading{
       font-size:130px;
     }
+    .mainImage{
+      width:30%;
+    }
     .subHeading{
-      font-size:30px;
+      font-size:22px;
     }
     .projectHeading{
       text-align:left;

@@ -1,4 +1,4 @@
-let a = [1,2,3,4,5];
+let a = [2,1,5,3,4];
 let d = 2;
 
 function rotLeft(a,d){
