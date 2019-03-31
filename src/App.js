@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Portfolio from "../src/Portfolio/portfolio"
+import Entry from "../src/App/entry"
 
 
 
@@ -7,7 +7,7 @@ import Portfolio from "../src/Portfolio/portfolio"
 class App extends Component {
   render() {
     return (
-        <Portfolio/>
+        <Entry/>
     );
   }
 }
