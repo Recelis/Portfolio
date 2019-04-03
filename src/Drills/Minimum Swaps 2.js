@@ -7,9 +7,7 @@ function minimumSwaps(arr) {
   arr.map((key,index) =>{
     newMap.set(key, index);
   });
-  newMap.forEach(function(value, key) {
-    console.log(key + ' = ' + value);
-  });
+  printMap(newMap);
   // look for minimum value not in position
   let count = 1;
   while(count < arr.length) {
@@ -17,20 +15,31 @@ function minimumSwaps(arr) {
     if (newMap.get(count) === count -1) count++;
     else {
       // let arr be spliced smaller to make search smaller
-      let index = newMap.get(count);
-      
-      let tempValue = Array.from(newMap.keys())[count-1];
-      
+      let countIndex = newMap.get(count);
+      console.log("index " + countIndex);
+      console.log(Array.from(newMap.values()));
+      console.log(Array.from(newMap.values()).indexOf(count-1));
+      console.log(Array.from(newMap.keys()));
+
+      let destIndex = Array.from(newMap.values()).indexOf(count-1);
+      let destTempValue = Array.from(newMap.keys())[destIndex];
+      console.log("destTempValue " + destTempValue);
+      // console.log(Array.from(newMap.keys()));
+      console.log("tempValue " + destTempValue);
       newMap.set(count,count-1);
-      newMap.set(tempValue, index);
+      newMap.set(destTempValue, countIndex);
       swaps++;
+      printMap(newMap);
     }
-    newMap.forEach(function(value, key) {
-      console.log(key + ' = ' + value);
-    });
+    
   }
-  
+  printMap(newMap);
   return swaps;
 }
 
+function printMap(newMap){
+  newMap.forEach(function(value, key) {
+    console.log(key + ' = ' + value);
+  });
+}
 console.log(minimumSwaps(arr));
