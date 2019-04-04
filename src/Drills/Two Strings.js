@@ -22,4 +22,5 @@ function twoStrings(s1, s2){
     return "NO";
 }
 
-console.log(twoStrings(s1, s2))
+console.log(twoStrings(s1, s2));
+// 80.52
