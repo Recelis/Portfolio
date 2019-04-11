@@ -33,7 +33,7 @@
 
     }
 
-    #nav-bar{
+    .nav-bar{
 
     }
 
@@ -52,9 +52,42 @@
 
     }
     
+    .home{
+      padding-top:100px;
+      background-color:rgb(255, 208, 0);
+      height:90%;
+    }
 
-    .tagline{
+    .home__heading{
+      text-align:center;
+      font-size:60px;
+      margin-top:30px;
+      font-family: 'Bangers', cursive;
+      text-align:left;
+    }
 
+    .home__tagline{
+      
+    }
+
+    .home__image{
+      width:50%;
+    }
+
+    .lang__bar{
+
+    }
+
+    .langbar__skill{
+
+    }
+
+    .langbar__img{
+
+    }
+
+    .langbar_text{
+      
     }
     
     
@@ -79,11 +112,7 @@
     }
     
     .tagline{
-      text-align:center;
-      font-size:60px;
-      margin-top:30px;
-      font-family: 'Bangers', cursive;
-      text-align:left;
+      
     }
     
     .page{
@@ -107,7 +136,7 @@
     }
     
     .mainImage{
-      width:50%;
+      
     }
     
     .articleHeading{
