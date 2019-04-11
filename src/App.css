@@ -87,8 +87,39 @@
     }
 
     .langbar_text{
-      
+
     }
+
+    .projects{
+
+    }
+
+    .projects__heading{
+
+    }
+
+    .projects__story{
+      margin:10px;
+    }
+
+    .projects__img{
+      width:50%;
+      margin-right:auto;
+      margin-left:auto;
+    }
+
+    .projects__heading{
+      font-size:24px;
+      font-family: 'Oswald', sans-serif;
+      margin-top:0px;
+      text-align:center;
+      font-weight: bold;
+    }
+
+    .projects__text{
+      text-align:center;
+    }
+    
     
     
     /* Major Parts */ 
@@ -180,22 +211,14 @@
       /* border-width: 0px 1px 1px 1px; */
     }
     
-    .projectStory{
-      margin:10px;
-    }
+    
     
     .projectHeading{
-      font-size:24px;
-      font-family: 'Oswald', sans-serif;
-      margin-top:0px;
-      text-align:center;
-      font-weight: bold;
+      
     }
     
     .projectImg{
-      width:50%;
-      margin-right:auto;
-      margin-left:auto;
+      
     }
     
     .projectText{

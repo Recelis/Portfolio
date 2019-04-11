@@ -36,6 +36,12 @@ export default class LangBar extends Component {
             <Col xs={4} md={4}>
               <LangBarSkill skill="Bootstrap" skillImg={bootstrapImg} />
             </Col>
+            <Col xs={4} md={4}>
+                <LangBarSkill skill = "BEM" skillImg = {bootstrapImg} />
+            </Col>
+            <Col xs={4} md={4}>
+                <LangBarSkill skill = "Node.js" skillImg = {bootstrapImg} />
+            </Col>
           </Row>
         </Grid>
       </section>
