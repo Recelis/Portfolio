@@ -10,20 +10,14 @@ class FrontPage extends Component {
       <div>
         <section className="page">
           <Row>
-            <Col xs={12} md={12}>
-                <h1 className = "heading">WePortfolio</h1>
+          <Col xs={12} md={6}>
+                <p className = "tagline">Run. Code. Connect.</p>
+                <p className = "subHeading">Hi, I'm Jacky Lui. A web developer with a passion for well written code.</p>
             </Col>
-          </Row>
-          <Row>
-            <Col xs={12} md={12}>
-                <p className = "subHeading">Upload your React Components to make your portfolio</p>
-                <p className = "subHeading">Get Recognised, Get Going.</p>
-                <div><button>Get Started</button></div>
-                <div><button>Login</button></div>
-            </Col>
-            <Col xs={12} md={12}>
+            <Col xs={12} md={6}>
               <MainImage />
             </Col>
+            
           </Row>
         </section>
         <hr />
