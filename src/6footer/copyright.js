@@ -13,8 +13,7 @@ export default class CopyRight extends Component{
             <div>
                 <hr/>
                 <p className = "copyRight"> 
-                    The Jacky Portfolio is copyrighted &#169; by Jacky Lui 2018. If you want to work with Jacky Lui and provide a feature story for his web portfolio, or 
-                    fancy hiring his skills contact him via jackymlui at live dot com.
+                    &#169; Jacky Lui 2019.
                 </p>
             </div>
         )
