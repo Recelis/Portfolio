@@ -27,7 +27,7 @@ p {
   font-size: 16px;
   font-family: "Roboto Mono", monospace;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
   /* small scale */
   .page {
   }
@@ -63,10 +63,11 @@ p {
     font-size: 60px;
     margin-top: 30px;
     font-family: "Bangers", cursive;
-    text-align: left;
   }
 
   .home__tagline {
+    text-align: center;
+    margin:0px 10px 0px 10px;
   }
 
   .home__image-large {
@@ -135,137 +136,9 @@ p {
   .contact__message {
   }
 
-  /* Major Parts */
-  #title {
-    position: fixed;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    background-color: transparent;
-    z-index: 100;
-  }
-
-  .App {
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-  }
-
-  #title-time {
-    display: none;
-  }
-
-  .tagline {
-  }
-
-  .page {
-    padding-top: 100px;
-    background-color: rgb(255, 208, 0);
-    height: 90%;
-  }
-
-  .heading {
-    padding-top: 30px;
-    font-size: 50px;
-    font-family: "Bangers", cursive;
-    text-align: center;
-    color: rgb(204, 201, 201);
-  }
-
-  .subHeading {
-    font-size: 18px;
-    font-family: "Oswald", sans-serif;
-    text-align: center;
-  }
-
-  .mainImage {
-  }
-
-  .articleHeading {
-    font-family: "Oswald", sans-serif;
-    font-size: 30px;
-    font-style: italic;
-    color: white;
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: grey;
-  }
-
-  /* Skills */
-
-  .langFrame {
-    /* border-style: solid;
-      border-color: rgb(231, 231, 231);
-      border-width: 0px 1px 0px 1px; */
-  }
-
-  .skill {
-    text-align: center;
-    font-size: 24px;
-    font-family: "Oswald", sans-serif;
-  }
-
-  .skillImg {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 15%;
-  }
-
-  /*  Projects */
-  .project {
-  }
-
-  .column {
-    /* border-style: solid; */
-    /* border-color: rgb(231, 231, 231); */
-    /* border-width: 0px 1px 1px 1px; */
-  }
-
-  .projectHeading {
-  }
-
-  .projectImg {
-  }
-
-  .projectText {
-    text-align: center;
-  }
-
-  .projectShort {
-  }
-
-  /* .sponsor{
-      border-color: rgb(245, 0, 0);
-      border-width: 1px;
-    } */
-
-  .bottomAdImg {
-    width: 50%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .bottomAdHead {
-    text-align: center;
-    width: 50%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .bottomAdCompany {
-    text-align: center;
-  }
-
-  .copyRight {
-    color: grey;
-    width: 50%;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-  }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1300px) {
   /* websize */
   .page {
   }
@@ -299,7 +172,6 @@ p {
   }
 
   .home__heading {
-    text-align: center;
     font-size: 60px;
     margin-top: 30px;
     font-family: "Bangers", cursive;
@@ -307,6 +179,7 @@ p {
   }
 
   .home__tagline {
+    text-align:left;
   }
 
   .home__image-large {
