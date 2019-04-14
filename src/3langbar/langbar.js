@@ -3,47 +3,59 @@ import LangBarSkill from "./skill";
 
 import Grid from "@material-ui/core/Grid";
 
-import reactImg from "../images/react.jpeg";
-import reduxImg from "../images/redux.jpeg";
-import htmlImg from "../images/HTML5.png";
-import jsImg from "../images/javascript.jpeg";
-import cssImg from "../images/css3.png";
+import ReactJS from "../images/react.jpeg";
+import Redux from "../images/redux.jpeg";
+import HTML from "../images/HTML5.png";
+import JS from "../images/javascript.jpeg";
+import CSS from "../images/css3.png";
 import BEM from "../images/bem.png";
-import bootstrapImg from "../images/bootstrap.svg";
+import Bootstrap from "../images/bootstrap.svg";
 import Node from "../images/nodejs.png";
 import MaterialUI from "../images/materialui.png";
+import Mongo from "../images/mongodb.png";
+import Mlab from "../images/mlab.png";
+import Firebase from "../images/firebase.png";
 
 export default class LangBar extends Component {
   render() {
     return (
       <section className="langbar">
         <Grid container justify="center">
-          <Grid xs={4} md = {1}>
-            <LangBarSkill skill="HTML5" skillImg={htmlImg} />
+          <Grid xs={3} md = {1}>
+            <img className = "langbar__img" src = {HTML} alt = {"HTML"} responsive></img>
           </Grid>
-          <Grid xs={4} md = {1}>
-            <LangBarSkill skill="CSS" skillImg={cssImg} />
+          <Grid xs={3} md = {1}>
+            <img className = "langbar__img" src = {CSS} alt = {"CSS"} responsive></img>
           </Grid>
-          <Grid xs={4} md = {1}>
-            <LangBarSkill skill="Javascript" skillImg={jsImg} />
+          <Grid xs={3} md = {1}>
+            <img className = "langbar__img" src = {JS} alt = {"JS"} responsive></img>
           </Grid>
-          <Grid xs={4} md = {1}>
-            <LangBarSkill skill="React" skillImg={reactImg} />
+          <Grid xs={3} md = {1}>
+            <img className = "langbar__img" src = {ReactJS} alt = {"ReactJS"} responsive></img>
           </Grid>
-          <Grid xs={4} md = {1}>
-            <LangBarSkill skill="Redux" skillImg={reduxImg} />
+          <Grid xs={3} md = {1}>
+            <img className = "langbar__img" src = {Redux} alt = {"Redux"} responsive></img>
           </Grid>
-          <Grid xs={4} md = {1}>
-            <LangBarSkill skill="Bootstrap" skillImg={bootstrapImg} />
+          <Grid xs={3} md = {1}>
+            <img className = "langbar__img" src = {Bootstrap} alt = {"Bootstrap"} responsive></img>
           </Grid>
-          <Grid xs={4} md = {1}>
-            <LangBarSkill skill="BEM" skillImg={BEM} />
+          <Grid xs={3} md = {1}>
+            <img className = "langbar__img" src = {BEM} alt = {"BEM"} responsive></img>
           </Grid>
-          <Grid xs={4} md = {1}>
-            <LangBarSkill skill="Node.js" skillImg={Node} />
+          <Grid xs={3} md = {1}>
+            <img className = "langbar__img" src = {Node} alt = {"Node.js"} responsive></img>
           </Grid>
-          <Grid xs={4} md = {1}>
-            <LangBarSkill skill="Material UI" skillImg={MaterialUI} />
+          <Grid xs={3} md = {1}>
+            <img className = "langbar__img" src = {MaterialUI} alt = {"Material UI"} responsive></img>
+          </Grid>
+          <Grid xs={3} md = {1}>
+            <img className = "langbar__img" src = {Mongo} alt = {"MongoDB"} responsive></img>
+          </Grid>
+          <Grid xs={3} md = {1}>
+            <img className = "langbar__img" src = {Mlab} alt = {"mlab"} responsive></img>
+          </Grid>
+          <Grid xs={3} md = {1}>
+            <img className = "langbar__img" src = {Firebase} alt = {"Firebase"} responsive></img>
           </Grid>
         </Grid>
       </section>

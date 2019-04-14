@@ -86,18 +86,10 @@ p {
     margin-top:10px;
   }
 
-  .langbar__skill {
-  }
-
   .langbar__img {
     display: block;
-    width:25%;
+    width:20%;
     margin:0 auto;
-  }
-
-  .langbar_text {
-    font-size:12px;
-    text-align:center;
   }
 
   .projects {
@@ -208,19 +200,12 @@ p {
     margin-top:10px;
   }
 
-  .langbar__skill {
-  }
-
   .langbar__img {
     display: block;
-    width:30%;
+    width:40%;
     margin:0 auto;
   }
 
-  .langbar_text {
-    font-size:12px;
-    text-align:center;
-  }
 
   .projects {
   }
