@@ -83,13 +83,20 @@ p {
   }
 
   .langbar {
-    margin-top:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:white;
+    box-shadow: 0px 0px 5px #888888;
   }
 
   .langbar__img {
     display: block;
-    width:20%;
+    height:20px;
     margin:0 auto;
+  }
+
+  .langbar__img_hide{
+    display:none;
   }
 
   .projects {
@@ -197,12 +204,15 @@ p {
   }
 
   .langbar {
-    margin-top:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:white;
+    box-shadow: 0px 0px 5px #888888;
   }
 
   .langbar__img {
     display: block;
-    width:40%;
+    height:50px;
     margin:0 auto;
   }
 

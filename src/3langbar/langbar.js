@@ -20,41 +20,41 @@ export default class LangBar extends Component {
     return (
       <section className="langbar">
         <Grid container justify="center">
-          <Grid xs={3} md = {1}>
+          <Grid xs={2} md = {1}>
             <img className = "langbar__img" src = {HTML} alt = {"HTML"} responsive></img>
           </Grid>
-          <Grid xs={3} md = {1}>
+          <Grid xs={2} md = {1}>
             <img className = "langbar__img" src = {CSS} alt = {"CSS"} responsive></img>
           </Grid>
-          <Grid xs={3} md = {1}>
+          <Grid xs={2} md = {1}>
             <img className = "langbar__img" src = {JS} alt = {"JS"} responsive></img>
           </Grid>
-          <Grid xs={3} md = {1}>
+          <Grid xs={2} md = {1}>
             <img className = "langbar__img" src = {ReactJS} alt = {"ReactJS"} responsive></img>
           </Grid>
-          <Grid xs={3} md = {1}>
+          <Grid xs={2} md = {1}>
             <img className = "langbar__img" src = {Redux} alt = {"Redux"} responsive></img>
           </Grid>
-          <Grid xs={3} md = {1}>
+          <Grid xs={2} md = {1}>
             <img className = "langbar__img" src = {Bootstrap} alt = {"Bootstrap"} responsive></img>
           </Grid>
-          <Grid xs={3} md = {1}>
-            <img className = "langbar__img" src = {BEM} alt = {"BEM"} responsive></img>
+          <Grid xs={2} md = {1}>
+            <img className = "langbar__img langbar__img_hide" src = {BEM} alt = {"BEM"} responsive></img>
           </Grid>
-          <Grid xs={3} md = {1}>
-            <img className = "langbar__img" src = {Node} alt = {"Node.js"} responsive></img>
+          <Grid xs={2} md = {1}>
+            <img className = "langbar__img langbar__img_hide" src = {Node} alt = {"Node.js"} responsive></img>
           </Grid>
-          <Grid xs={3} md = {1}>
-            <img className = "langbar__img" src = {MaterialUI} alt = {"Material UI"} responsive></img>
+          <Grid xs={2} md = {1}>
+            <img className = "langbar__img langbar__img_hide" src = {MaterialUI} alt = {"Material UI"} responsive></img>
           </Grid>
-          <Grid xs={3} md = {1}>
-            <img className = "langbar__img" src = {Mongo} alt = {"MongoDB"} responsive></img>
+          <Grid xs={2} md = {1}>
+            <img className = "langbar__img langbar__img_hide" src = {Mongo} alt = {"MongoDB"} responsive></img>
           </Grid>
-          <Grid xs={3} md = {1}>
-            <img className = "langbar__img" src = {Mlab} alt = {"mlab"} responsive></img>
+          <Grid xs={2} md = {1}>
+            <img className = "langbar__img langbar__img_hide" src = {Mlab} alt = {"mlab"} responsive></img>
           </Grid>
-          <Grid xs={3} md = {1}>
-            <img className = "langbar__img" src = {Firebase} alt = {"Firebase"} responsive></img>
+          <Grid xs={2} md = {1}>
+            <img className = "langbar__img langbar__img_hide" src = {Firebase} alt = {"Firebase"} responsive></img>
           </Grid>
         </Grid>
       </section>
