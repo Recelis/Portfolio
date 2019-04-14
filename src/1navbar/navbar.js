@@ -13,10 +13,6 @@ import {
 } from "react-scroll";
 
 export default class Navbar extends Component {
-  scrollTo = function() {
-    scroll.scrollTo(100);
-  };
-
   render() {
     return (
       <header>
@@ -29,7 +25,6 @@ export default class Navbar extends Component {
                 smooth={true}
                 offset={-50}
                 duration={1000}
-                onSetActive={this.handleSetActive}
               >
                 <h1 className="nav-bar__logo">JACKY LUI</h1>
               </Link>
@@ -44,7 +39,6 @@ export default class Navbar extends Component {
                 smooth={true}
                 offset={-50}
                 duration={1000}
-                onSetActive={this.handleSetActive}
               >
                 About
               </Link>
@@ -57,7 +51,6 @@ export default class Navbar extends Component {
                 smooth={true}
                 offset={-50}
                 duration={1000}
-                delay={0}
               >
                 Projects
               </Link>
@@ -71,7 +64,6 @@ export default class Navbar extends Component {
                 smooth={true}
                 offset={50}
                 duration={1000}
-                delay={0}
               >
                 Contact
               </Link>
