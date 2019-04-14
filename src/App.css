@@ -35,6 +35,7 @@ p {
   .nav-bar {
     position: fixed;
     z-index: 1000;
+    background-color: rgb(255, 208, 0);
   }
 
   .nav-bar__logo {
@@ -48,7 +49,7 @@ p {
   }
 
   .nav-bar__button {
-    display:none;
+    display:none !important;
   }
 
   .home {

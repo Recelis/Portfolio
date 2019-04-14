@@ -3,16 +3,14 @@ import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 
-import {
-  Link,
-} from "react-scroll";
+import { Link } from "react-scroll";
 
 export default class Navbar extends Component {
   render() {
     return (
       <header>
-        <Grid className="nav-bar">
-          <Grid xs={12}>
+        <Grid className="nav-bar" container>
+          <Grid xs={6} sm={6}>
             <Link
               activeClass="active"
               to="homepage"
@@ -24,17 +22,26 @@ export default class Navbar extends Component {
               <h1 className="nav-bar__logo">JACKY LUI</h1>
             </Link>
           </Grid>
-          <Grid xs = {12} className="nav-bar__group">
-            <Link
-              activeClass="active"
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={-50}
-              duration={1000}
-            >
-              <Button className="nav-bar__button" variant="primary">About</Button>
-            </Link>
+          <Grid
+            xs={6}
+            sm={6}
+            className="nav-bar__group"
+            container
+            direction="row"
+            justify="center"
+          >
+            <Button className="nav-bar__button">
+              <Link
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={1000}
+              >
+                About
+              </Link>
+            </Button>
             <Button className="nav-bar__button">
               <Link
                 activeClass="active"
