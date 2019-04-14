@@ -189,7 +189,7 @@ p {
   }
 
   .home__image-large {
-    width:50%;
+    width:60%;
   }
 
   .home__image-small {
@@ -205,7 +205,7 @@ p {
 
   .langbar__img {
     display: block;
-    width:50%;
+    width:30%;
     margin:0 auto;
   }
 
