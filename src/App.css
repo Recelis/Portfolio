@@ -1,324 +1,379 @@
-
 /* Grid Styling */
-.Grid{
-    margin:0px;
-    padding:0px;
+.Grid {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+}
+/* Styling on Elements Direct */
+h1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  color: rgb(58, 58, 58);
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: rgb(68, 68, 253);
+}
+
+p {
+  font-size: 16px;
+  font-family: "Roboto Mono", monospace;
+}
+@media (max-width: 1000px) {
+  /* small scale */
+  .page {
   }
-  
-  .container-fluid{
-    margin:0px;
-    padding:0px;
+
+  .nav-bar {
+    position: fixed;
+    z-index: 1000;
   }
-  /* Styling on Elements Direct */
-  h1{
-    margin:0px;
-    padding:0px;
+
+  .nav-bar__logo {
+    text-align: center;
+    font-size: 15px;
+    margin: 10px 0px 10px 10px;
+    color: rgb(36, 36, 36);
+    font-size: 32px;
+    font-family: "Bangers", cursive;
+    text-align: left;
   }
-  
-  a{
-      color:rgb(58, 58, 58);
-      text-decoration: none !important;
-    }
-    
-    a:hover{
-      color:rgb(68, 68, 253);
-    }
-    
-    p{
-      font-size:16px;
-      font-family: 'Roboto Mono', monospace;
-    }
-  @media (max-width: 768px) { /* small scale */
-    .page{
 
-    }
+  .nav-bar__button {
+    display:none;
+  }
 
-    .nav-bar{
-      position:fixed;
-      z-index:1000;
-    }
+  .home {
+    padding-top: 100px;
+    background-color: rgb(255, 208, 0);
+    height: 90%;
+  }
 
-    .nav-bar__logo{
-      text-align:center;
-      font-size:15px;
-      /* background: #ff0000; */
-      margin-top:10px;
-       color:rgb(36, 36, 36);
-      font-size:32px;
-      font-family: 'Bangers', cursive;
-      text-align:left;
-    }
+  .home__heading {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 30px;
+    font-family: "Bangers", cursive;
+    text-align: left;
+  }
 
-    .nav-bar__button{
+  .home__tagline {
+  }
 
-    }
-    
-    .home{
-      padding-top:100px;
-      background-color:rgb(255, 208, 0);
-      height:90%;
-    }
+  .home__image-large {
+    display:none;
+  }
 
-    .home__heading{
-      text-align:center;
-      font-size:60px;
-      margin-top:30px;
-      font-family: 'Bangers', cursive;
-      text-align:left;
-    }
+  .home__image-small {
+    width: 50%;
+  }
 
-    .home__tagline{
-      
-    }
+  .lang__bar {
+  }
 
-    .home__image{
-      width:50%;
-    }
+  .langbar__skill {
+  }
 
-    .lang__bar{
+  .langbar__img {
+  }
 
-    }
+  .langbar_text {
+  }
 
-    .langbar__skill{
+  .projects {
+  }
 
-    }
+  .projects__heading {
+  }
 
-    .langbar__img{
+  .projects__story {
+    margin: 10px;
+  }
 
-    }
+  .projects__img {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+  }
 
-    .langbar_text{
+  .projects__heading {
+    font-size: 24px;
+    font-family: "Oswald", sans-serif;
+    margin-top: 0px;
+    text-align: center;
+    font-weight: bold;
+  }
 
-    }
+  .projects__text {
+    text-align: center;
+  }
 
-    .projects{
+  .contact {
+  }
 
-    }
+  .contact__heading {
+  }
 
-    .projects__heading{
+  .contact__form-group {
+  }
 
-    }
+  .contact__name {
+  }
 
-    .projects__story{
-      margin:10px;
-    }
+  .contact__email {
+  }
 
-    .projects__img{
-      width:50%;
-      margin-right:auto;
-      margin-left:auto;
-    }
+  .contact__message {
+  }
 
-    .projects__heading{
-      font-size:24px;
-      font-family: 'Oswald', sans-serif;
-      margin-top:0px;
-      text-align:center;
-      font-weight: bold;
-    }
+  /* Major Parts */
+  #title {
+    position: fixed;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: transparent;
+    z-index: 100;
+  }
 
-    .projects__text{
-      text-align:center;
-    }
+  .App {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
 
-    .sponsors{
+  #title-time {
+    display: none;
+  }
 
-    }
+  .tagline {
+  }
 
-    .sponsors__heading{
+  .page {
+    padding-top: 100px;
+    background-color: rgb(255, 208, 0);
+    height: 90%;
+  }
 
-    }
+  .heading {
+    padding-top: 30px;
+    font-size: 50px;
+    font-family: "Bangers", cursive;
+    text-align: center;
+    color: rgb(204, 201, 201);
+  }
 
-    .sponsors__ad{
+  .subHeading {
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+  }
 
-    }
+  .mainImage {
+  }
 
-    .sponsors__img{
+  .articleHeading {
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: grey;
+  }
 
-    }
+  /* Skills */
 
-    .sponsors__adheading{
-
-    }
-
-    .sponsors__adcompany{
-
-    }
-    
-    
-    
-    /* Major Parts */ 
-    #title{
-      position:fixed;
-      width:100%;
-      padding:0px;
-      margin:0px;
-      background-color:transparent;
-      z-index:100;
-    }
-  
-    .App {
-      text-align: center;
-      margin:0px;
-      padding:0px;
-    }
-  
-    #title-time{
-      display:none;
-    }
-    
-    .tagline{
-      
-    }
-    
-    .page{
-      padding-top:100px;
-      background-color:rgb(255, 208, 0);
-      height:90%;
-    }
-    
-    .heading{
-      padding-top:30px;
-      font-size:50px;
-      font-family: 'Bangers', cursive;
-      text-align:center;
-      color:rgb(204, 201, 201);
-    }
-    
-    .subHeading{
-      font-size:18px;
-      font-family: 'Oswald', sans-serif;
-      text-align:center;
-    }
-    
-    .mainImage{
-      
-    }
-    
-    .articleHeading{
-      font-family: 'Oswald', sans-serif;
-      font-size:30px;
-      font-style:italic;
-      color:white;
-      margin-bottom:20px;
-      padding:10px;
-      background-color:grey;
-    }
-    
-    /* Skills */
-    
-    .langFrame{
-      /* border-style: solid;
+  .langFrame {
+    /* border-style: solid;
       border-color: rgb(231, 231, 231);
       border-width: 0px 1px 0px 1px; */
-    }
-    
-    .skill{
-      text-align:center;
-      font-size:24px;
-      font-family: 'Oswald', sans-serif;
-    }
-    
-    .skillImg{
-      margin-left:auto;
-      margin-right:auto;
-      max-width:15%;
-    }
-    
-    /*  Projects */
-    .project{
-      
-    }
-    
-    .column{
-      /* border-style: solid; */
-      /* border-color: rgb(231, 231, 231); */
-      /* border-width: 0px 1px 1px 1px; */
-    }
-    
-    
-    
-    .projectHeading{
-      
-    }
-    
-    .projectImg{
-      
-    }
-    
-    .projectText{
-      text-align:center;
-    }
-    
-    .projectShort{
-    
-    }
-    
-    /* .sponsor{
+  }
+
+  .skill {
+    text-align: center;
+    font-size: 24px;
+    font-family: "Oswald", sans-serif;
+  }
+
+  .skillImg {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 15%;
+  }
+
+  /*  Projects */
+  .project {
+  }
+
+  .column {
+    /* border-style: solid; */
+    /* border-color: rgb(231, 231, 231); */
+    /* border-width: 0px 1px 1px 1px; */
+  }
+
+  .projectHeading {
+  }
+
+  .projectImg {
+  }
+
+  .projectText {
+    text-align: center;
+  }
+
+  .projectShort {
+  }
+
+  /* .sponsor{
       border-color: rgb(245, 0, 0);
       border-width: 1px;
     } */
-    
-    .bottomAdImg{
-      width:50%;
-      margin-right:auto;
-      margin-left:auto;
-    }
-    
-    .bottomAdHead{
-      text-align:center;
-      width:50%;
-      margin-right:auto;
-      margin-left:auto;
-    }
-    
-    .bottomAdCompany{
-      text-align:center;
-    }
-    
-    .copyRight{
-      color:grey;
-      width:50%;
-      margin-right:auto;
-      margin-left:auto;
-      text-align:center;
-    }
+
+  .bottomAdImg {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
   }
-    
-    @media (min-width: 768px) { /* websize */
-      #title-time{
-        display:block;
-      }  
-      .heading{
-        font-size:130px;
-      }
-      .mainImage{
-        width:30%;
-      }
-      .subHeading{
-        font-size:22px;
-      }
-      .projectHeading{
-        text-align:left;
-      }
-      .projectImg{
-        width:100%;
-      }
-      .projectText{
-        text-align:left;
-      }
-      .bottomAdImg{
-        width:100%;
-      }
-      
-      .bottomAdHead{
-        text-align:left;
-        width:100%;
-      }
-      
-      .bottomAdCompany{
-        text-align:left;
-      }
-      
-    }
-    
+
+  .bottomAdHead {
+    text-align: center;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .bottomAdCompany {
+    text-align: center;
+  }
+
+  .copyRight {
+    color: grey;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1000px) {
+  /* websize */
+  .page {
+  }
+
+  .nav-bar {
+    position: fixed;
+    background-color: rgb(255, 208, 0);
+    width:100%;
+    z-index: 1000;
+  }
+
+  .nav-bar__logo {
+    text-align: center;
+    font-size: 15px;
+    margin: 10px 0px 10px 10px;
+    color: rgb(36, 36, 36);
+    font-size: 32px;
+    font-family: "Bangers", cursive;
+    text-align: left;
+  }
+
+  .nav-bar__button {
+    margin: 10px 0px 10px 0px;
+    display:inline-block;
+  }
+
+  .home {
+    padding-top: 100px;
+    background-color: rgb(255, 208, 0);
+    height: 90%;
+  }
+
+  .home__heading {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 30px;
+    font-family: "Bangers", cursive;
+    text-align: left;
+  }
+
+  .home__tagline {
+  }
+
+  .home__image-large {
+    width:50%;
+  }
+
+  .home__image-small {
+    display:none;
+  }
+
+  .lang__bar {
+  }
+
+  .langbar__skill {
+  }
+
+  .langbar__img {
+  }
+
+  .langbar_text {
+  }
+
+  .projects {
+  }
+
+  .projects__heading {
+  }
+
+  .projects__story {
+    margin: 10px;
+  }
+
+  .projects__img {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .projects__heading {
+    font-size: 24px;
+    font-family: "Oswald", sans-serif;
+    margin-top: 0px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .projects__text {
+    text-align: center;
+  }
+
+  .contact {
+  }
+
+  .contact__heading {
+  }
+
+  .contact__form-group {
+  }
+
+  .contact__name {
+  }
+
+  .contact__email {
+  }
+
+  .contact__message {
+  }
+
+  .copyright {
+  }
+}

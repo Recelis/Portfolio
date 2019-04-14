@@ -1,19 +1,16 @@
-import React, { Component } from "react"
+import React, { Component } from "react";
 
-import CopyRight from "./copyright"
+import { Row, Col } from "react-bootstrap";
 
-import { Grid, Row, Col } from "react-bootstrap"
-
-export default class Footer extends Component{
-    render(){
-        return(
-            <Grid>
-                <Row>
-                    <Col xs={12} md={12}>
-                        <CopyRight />
-                    </Col>
-                </Row>
-            </Grid>
-        );
-    }
-} 
+export default class Footer extends Component {
+  render() {
+    return (
+        <Row>
+          <Col xs={12} md={12}>
+            <hr />
+            <p className="copyright">&#169; Jacky Lui 2019.</p>
+          </Col>
+        </Row>
+    );
+  }
+}

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { Grid, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 import ProjectsStory from "./projectsStory";
 
@@ -8,7 +8,6 @@ import ProjectsStory from "./projectsStory";
 import Opposts from "../images/village.jpg";
 import PizzaAndChills from "../images/pizza.png";
 import Geodi from "../images/Geodi.png";
-import Calculator from "../images/calculator.png";
 import BilgyBeagle from "../images/BilgyBeagle.png";
 import RandomQuote from "../images/RandomQuote.png";
 
@@ -36,7 +35,7 @@ export default class Projects extends Component {
   render() {
     return (
       <section className="projects">
-        <Grid>
+        <Container>
           <Row>
             <Col xs={12} md={12}>
               <h2 className="projects__heading">Projects</h2>
@@ -92,7 +91,7 @@ export default class Projects extends Component {
               />
             </Row>
           </Col>
-        </Grid>
+        </Container>
       </section>
     );
   }

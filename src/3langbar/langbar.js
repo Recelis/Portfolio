@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import LangBarSkill from "./skill";
 
-import { Grid, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 import reactImg from "../images/react.jpeg";
 import reduxImg from "../images/redux.jpeg";
@@ -14,7 +14,7 @@ export default class LangBar extends Component {
   render() {
     return (
       <section className="langbar">
-        <Grid>
+        <Container>
           <Row>
             <Col xs={4} md={4}>
               <LangBarSkill skill="React" skillImg={reactImg} />
@@ -43,7 +43,7 @@ export default class LangBar extends Component {
                 <LangBarSkill skill = "Node.js" skillImg = {bootstrapImg} />
             </Col>
           </Row>
-        </Grid>
+        </Container>
       </section>
     );
   }

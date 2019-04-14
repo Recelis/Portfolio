@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 
-import { Grid, Row, Col, Image } from "react-bootstrap"
+import { Container, Row, Col, Image } from "react-bootstrap"
 
 export default class ProjectsStory extends Component{
     constructor(props){
@@ -11,7 +11,7 @@ export default class ProjectsStory extends Component{
     }
     render(){
         return(
-            <Grid className = "projects__story" fluid>
+            <Container className = "projects__story" fluid>
                 <Row>
                     <Col xs = {12} md = {12}>
                         <Image className = "projects__img" src= {this.props.projectImg} responsive/>
@@ -25,7 +25,7 @@ export default class ProjectsStory extends Component{
                     </Col>
                     <Col xs = {0} md = {0}></Col>
                 </Row>
-            </Grid>
+            </Container>
         )
     }
 }

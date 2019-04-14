@@ -11,10 +11,7 @@ export default class CopyRight extends Component{
     render(){
         return(
             <div>
-                <hr/>
-                <p className = "copyRight"> 
-                    &#169; Jacky Lui 2019.
-                </p>
+                
             </div>
         )
     }
