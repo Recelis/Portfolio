@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import LangBarSkill from "./skill";
 
 import Grid from "@material-ui/core/Grid";
 
