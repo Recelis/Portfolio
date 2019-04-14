@@ -78,16 +78,22 @@ p {
     width: 50%;
   }
 
-  .lang__bar {
+  .langbar {
+    margin-top:10px;
   }
 
   .langbar__skill {
   }
 
   .langbar__img {
+    display: block;
+    width:25%;
+    margin:0 auto;
   }
 
   .langbar_text {
+    font-size:12px;
+    text-align:center;
   }
 
   .projects {
@@ -190,16 +196,22 @@ p {
     display:none;
   }
 
-  .lang__bar {
+  .langbar {
+    margin-top:10px;
   }
 
   .langbar__skill {
   }
 
   .langbar__img {
+    display: block;
+    width:50%;
+    margin:0 auto;
   }
 
   .langbar_text {
+    font-size:12px;
+    text-align:center;
   }
 
   .projects {
