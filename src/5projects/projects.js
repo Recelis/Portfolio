@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { Container, Row, Col } from "react-bootstrap";
+import Grid from "@material-ui/core/Grid";
 
 import ProjectsStory from "./projectsStory";
 
@@ -35,63 +35,39 @@ export default class Projects extends Component {
   render() {
     return (
       <section className="projects">
-        <Container>
-          <Row>
-            <Col xs={12} md={12}>
+        <Grid container>
               <h2 className="projects__heading">Projects</h2>
-            </Col>
-          </Row>
-          <Col className="column" xs={12} md={4}>
-            <Row>
               <ProjectsStory
                 project="Opposts"
                 projectImg={Opposts}
                 projectText={projectText.Opposts}
                 projectLink={projectLink.Opposts}
               />
-            </Row>
-          </Col>
-          <Col className="column" xs={12} md={4}>
-            <Row>
-              <Col xs={12} md={6}>
                 <ProjectsStory
                   project="Geodi"
                   projectImg={Geodi}
                   projectText={projectText.Geodi}
                   projectLink={projectLink.Geodi}
                 />
-              </Col>
-            </Row>
-            <Row>
-              <Col xs={12} md={6}>
                 <ProjectsStory
                   project="BilgyBeagle"
                   projectImg={BilgyBeagle}
                   projectText={projectText.BilgyBeagle}
                   projectLink={projectLink.BilgyBeagle}
                 />
-              </Col>
-              <Col xs={12} md={6}>
                 <ProjectsStory
                   project="RandomQuote"
                   projectImg={RandomQuote}
                   projectText={projectText.RandomQuote}
                   projectLink={projectLink.RandomQuote}
                 />
-              </Col>
-            </Row>
-          </Col>
-          <Col className="column" xs={12} md={4}>
-            <Row>
               <ProjectsStory
                 project="Pizza&Chills"
                 projectImg={PizzaAndChills}
                 projectText={projectText.PizzaAndChills}
                 projectLink={projectLink.PizzaAndChills}
               />
-            </Row>
-          </Col>
-        </Container>
+              </Grid>
       </section>
     );
   }

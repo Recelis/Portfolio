@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 
-import { Container, Row, Col, Image } from "react-bootstrap"
+import Grid from "@material-ui/core/Grid";
 
 export default class ProjectsStory extends Component{
     constructor(props){
@@ -11,21 +11,11 @@ export default class ProjectsStory extends Component{
     }
     render(){
         return(
-            <Container className = "projects__story" fluid>
-                <Row>
-                    <Col xs = {12} md = {12}>
-                        <Image className = "projects__img" src= {this.props.projectImg} responsive/>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col xs = {0} md = {0}></Col>
-                    <Col xs = {12} md = {12}>
+            <Grid className = "projects__story">
+                        <img className = "projects__img" src= {this.props.projectImg} responsive/>
                         <h3 className = "projects__heading"><a href = {this.props.projectLink}>{this.props.project}</a></h3>
                         <p className = "projects__text">{this.props.projectText}</p>
-                    </Col>
-                    <Col xs = {0} md = {0}></Col>
-                </Row>
-            </Container>
+            </Grid>
         )
     }
 }
