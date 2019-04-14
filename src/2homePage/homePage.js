@@ -18,7 +18,7 @@ class HomePage extends Component {
             />
           </Grid>
           <Grid xs={12} md={6}>
-            <p className="home__heading">Run. Code. Connect.</p>
+            <p className="home__heading">Code. Run. Check &#10004;</p>
             <p className="home__tagline">
               Hi, I'm Jacky Lui. A web developer with a passion for well written clean + tidy
               code.

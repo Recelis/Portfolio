@@ -48,6 +48,10 @@ p {
     text-align: left;
   }
 
+  .nav-bar__logo:hover{
+    color:rgb(158, 152, 152);
+  }
+
   .nav-bar__button {
     display:none !important;
   }
@@ -164,6 +168,10 @@ p {
     font-size: 32px;
     font-family: "Bangers", cursive;
     text-align: left;
+  }
+
+  .nav-bar__logo:hover{
+    color:rgb(158, 152, 152);
   }
 
   .nav-bar__button {
