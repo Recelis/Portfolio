@@ -12,14 +12,11 @@ import BilgyBeagle from "../images/BilgyBeagle.png";
 import RandomQuote from "../images/RandomQuote.png";
 
 const projectText = {
-  Opposts: `To explore what it means to build a full stack app, I ventured further to build a social media app based on uploading 6 images stories. Built with React and Firebase for a mock backend, all 'server' functions
-    were moved to one server file as I realised that full stack apps were built with front-end separate from the backend code.
-    `,
-  PizzaAndChills:
-    "This was the first full-stack app that I had attempted. This app notifies people when they are free to hang out with. Built with React and Firebase.",
+  Opposts: `a Firebase app: 6 images to tell a story`,
+  PizzaAndChills: `Firebase app: Every software engineer builds one online-to-offline app in their lifetime.`,
   Geodi: "A home page",
-  BilgyBeagle: "a tribute page built with HTML and CSS",
-  RandomQuote: "using Ajax to call from external server"
+  BilgyBeagle: "a tribute page",
+  RandomQuote: "an Ajax app"
 };
 
 const projectLink = {
@@ -35,39 +32,60 @@ export default class Projects extends Component {
   render() {
     return (
       <section className="projects">
-        <Grid container>
-              <h2 className="projects__heading">Projects</h2>
-              <ProjectsStory
-                project="Opposts"
-                projectImg={Opposts}
-                projectText={projectText.Opposts}
-                projectLink={projectLink.Opposts}
-              />
-                <ProjectsStory
-                  project="Geodi"
-                  projectImg={Geodi}
-                  projectText={projectText.Geodi}
-                  projectLink={projectLink.Geodi}
-                />
-                <ProjectsStory
-                  project="BilgyBeagle"
-                  projectImg={BilgyBeagle}
-                  projectText={projectText.BilgyBeagle}
-                  projectLink={projectLink.BilgyBeagle}
-                />
-                <ProjectsStory
-                  project="RandomQuote"
-                  projectImg={RandomQuote}
-                  projectText={projectText.RandomQuote}
-                  projectLink={projectLink.RandomQuote}
-                />
-              <ProjectsStory
-                project="Pizza&Chills"
-                projectImg={PizzaAndChills}
-                projectText={projectText.PizzaAndChills}
-                projectLink={projectLink.PizzaAndChills}
-              />
-              </Grid>
+        <Grid
+          container
+          spacing={0}
+          direction="row"
+          alignItems="left"
+          justify="left"
+          style={{ minHeight: "60vh" }}
+        >
+          <Grid xs={12}>
+            <h2 className="projects__heading">
+              Look through my completed projects
+            </h2>
+          </Grid>
+          <Grid xs={6} md = {2}>
+            <ProjectsStory
+              project="Opposts"
+              projectImg={Opposts}
+              projectText={projectText.Opposts}
+              projectLink={projectLink.Opposts}
+            />
+          </Grid>
+          <Grid xs={6} md = {2}>
+            <ProjectsStory
+              project="Geodi"
+              projectImg={Geodi}
+              projectText={projectText.Geodi}
+              projectLink={projectLink.Geodi}
+            />
+          </Grid>
+          <Grid xs={6} md = {2}>
+            <ProjectsStory
+              project="BilgyBeagle"
+              projectImg={BilgyBeagle}
+              projectText={projectText.BilgyBeagle}
+              projectLink={projectLink.BilgyBeagle}
+            />
+          </Grid>
+          <Grid xs={6} md = {2}>
+            <ProjectsStory
+              project="RandomQuote"
+              projectImg={RandomQuote}
+              projectText={projectText.RandomQuote}
+              projectLink={projectLink.RandomQuote}
+            />
+          </Grid>
+          <Grid xs={6} md = {2}>
+            <ProjectsStory
+              project="Pizza&Chills"
+              projectImg={PizzaAndChills}
+              projectText={projectText.PizzaAndChills}
+              projectLink={projectLink.PizzaAndChills}
+            />
+          </Grid>
+        </Grid>
       </section>
     );
   }

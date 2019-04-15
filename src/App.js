@@ -20,8 +20,8 @@ export default class App extends Component {
           <Element name = "homepage"><HomePage /></Element>
           <LangBar />
           <Element name = "about"><About/></Element>
-          {/* <Element name = "projects"><Projects /></Element>
-          <Element name = "contact"><Contact /></Element>
+          <Element name = "projects"><Projects /></Element>
+          {/* <Element name = "contact"><Contact /></Element>
           <Footer />  */}
       </Grid>
     );
