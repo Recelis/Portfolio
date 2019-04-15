@@ -1,11 +1,19 @@
-import React from "react";
+import React, { Component } from "react";
 
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 
 import { Link } from "react-scroll";
 
-export default function Navbar (props) {
+export default class Navbar extends Component{
+  constructor(props){
+    super(props);
+    this.handleGoToResume = this.handleGoToResume.bind(this);
+  }
+  handleGoToResume(){
+    window.open("https://drive.google.com/file/d/1g341NkPWsUYFX6es04ffhJdcnQeT-Q-A/view?usp=sharing");
+  }
+  render(){
     return (
       <header>
         <Grid className="nav-bar" container>
@@ -53,7 +61,7 @@ export default function Navbar (props) {
                 Projects
               </Link>
             </Button>
-            <Button className="nav-bar__button">Resume</Button>
+            <Button className="nav-bar__button" onClick = {this.handleGoToResume}>Resume</Button>
             {/* <Button className="nav-bar__button">
               <Link
                 activeClass="active"
@@ -71,4 +79,5 @@ export default function Navbar (props) {
       </header>
     );
   }
+}
 
