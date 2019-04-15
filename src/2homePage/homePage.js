@@ -1,6 +1,6 @@
-import React from "react";
+import React from "./node_modules/react";
 
-import Grid from "@material-ui/core/Grid";
+import Grid from "./node_modules/@material-ui/core/Grid";
 import image from "../images/jacky.png";
 
 export default function HomePage(props) {
