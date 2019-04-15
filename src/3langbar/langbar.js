@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 import Grid from "@material-ui/core/Grid";
 
@@ -15,8 +15,7 @@ import Mongo from "../images/mongodb.png";
 import Mlab from "../images/mlab.png";
 import Firebase from "../images/firebase.png";
 
-export default class LangBar extends Component {
-  render() {
+export default function LangBar (props){
     return (
       <section className="langbar">
         <Grid container justify="center">
@@ -59,5 +58,4 @@ export default class LangBar extends Component {
         </Grid>
       </section>
     );
-  }
 }

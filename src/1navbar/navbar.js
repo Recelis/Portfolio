@@ -1,12 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 
 import { Link } from "react-scroll";
 
-export default class Navbar extends Component {
-  render() {
+export default function Navbar (props) {
     return (
       <header>
         <Grid className="nav-bar" container>
@@ -72,4 +71,4 @@ export default class Navbar extends Component {
       </header>
     );
   }
-}
+
