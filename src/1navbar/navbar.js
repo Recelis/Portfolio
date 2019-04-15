@@ -54,7 +54,7 @@ export default function Navbar (props) {
               </Link>
             </Button>
             <Button className="nav-bar__button">Resume</Button>
-            <Button className="nav-bar__button">
+            {/* <Button className="nav-bar__button">
               <Link
                 activeClass="active"
                 to="contact"
@@ -65,7 +65,7 @@ export default function Navbar (props) {
               >
                 Contact
               </Link>
-            </Button>
+            </Button> */}
           </Grid>
         </Grid>
       </header>

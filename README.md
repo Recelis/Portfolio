@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Daily Portfolio
+## Official Jacky Lui Portfolio page (redesigned 2019)
 
-URL: https://dailyportfolio.herokuapp.com/
+contact me via jackymlui at live dot com for information on hiring/work/collaboration!
+
+URL: https://recelis.github.io/Portfolio/

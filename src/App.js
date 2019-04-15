@@ -7,7 +7,7 @@ import LangBar from "./3langbar/langbar";
 import About from "./4about/about";
 import Projects from "./5projects/projects";
 import Contact from "./6contact/contact";
-// import Footer from "./7footer/footer";
+import Footer from "./7footer/footer";
 import Grid from '@material-ui/core/Grid'
 
 import { Element } from "react-scroll";
@@ -21,8 +21,8 @@ export default class App extends Component {
           <LangBar />
           <Element name = "about"><About/></Element>
           <Element name = "projects"><Projects /></Element>
-          <Element name = "contact"><Contact /></Element>
-          {/* <Footer />  */}
+          {/* <Element name = "contact"><Contact /></Element> */}
+          <Footer /> 
       </Grid>
     );
   }

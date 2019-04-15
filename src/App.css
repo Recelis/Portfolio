@@ -184,6 +184,9 @@ p {
   .contact__message {
   }
 
+  .copyright{
+    text-align:center;
+  }
 }
 
 @media (min-width: 768px) {
@@ -359,6 +362,7 @@ p {
   .contact__message {
   }
 
-  .copyright {
+  .copyright{
+    text-align:center;
   }
 }
