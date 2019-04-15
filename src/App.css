@@ -206,6 +206,7 @@ p {
     font-size: 32px;
     font-family: "Bangers", cursive;
     text-align: left;
+    cursor: pointer;
   }
 
   .nav-bar__logo:hover{
@@ -232,6 +233,7 @@ p {
 
   .home__tagline {
     text-align:left;
+    width:80%;
   }
 
   .home__image-large {
