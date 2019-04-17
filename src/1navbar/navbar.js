@@ -17,7 +17,7 @@ export default class Navbar extends Component{
     return (
       <header>
         <Grid className="nav-bar" container>
-          <Grid xs={6} sm={6}>
+          <Grid item xs={6} sm={6}>
             <Link
               activeClass="active"
               to="homepage"
@@ -30,6 +30,7 @@ export default class Navbar extends Component{
             </Link>
           </Grid>
           <Grid
+          item
             xs={6}
             sm={6}
             className="nav-bar__group"
@@ -62,7 +63,7 @@ export default class Navbar extends Component{
               </Link>
             </Button>
             <Button className="nav-bar__button" onClick = {this.handleGoToResume}>Resume</Button>
-            {/* <Button className="nav-bar__button">
+            <Button className="nav-bar__button">
               <Link
                 activeClass="active"
                 to="contact"
@@ -73,7 +74,7 @@ export default class Navbar extends Component{
               >
                 Contact
               </Link>
-            </Button> */}
+            </Button>
           </Grid>
         </Grid>
       </header>

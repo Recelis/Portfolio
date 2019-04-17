@@ -167,15 +167,31 @@ p {
   }
 
   .contact {
+    width:80%;
+    margin:0 auto;
   }
 
   .contact__heading {
+    font-family: "Oswald", sans-serif;
+    text-align:left;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .contact__form{
+    font-size:16px;
   }
 
   .contact__form-group {
+    font-size:16px;
   }
 
   .contact__name {
+    width:100%;
+  }
+
+  .contact__control{
+    font-size:16px !important;
   }
 
   .contact__email {
@@ -183,6 +199,11 @@ p {
 
   .contact__message {
   }
+
+  .contact__warning{
+    color:red;
+  }
+
 
   .copyright{
     text-align:center;
@@ -350,16 +371,30 @@ p {
     font-weight: bold;
   }
 
+  .contact__form{
+    font-size:16px;
+  }
+
   .contact__form-group {
+    font-size:16px;
   }
 
   .contact__name {
+    width:100%;
+  }
+
+  .contact__control{
+    font-size:16px !important;
   }
 
   .contact__email {
   }
 
   .contact__message {
+  }
+
+  .contact__warning{
+    color:red;
   }
 
   .copyright{
