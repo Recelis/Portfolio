@@ -64,7 +64,7 @@ export default class Navbar extends Component{
                 Projects
               </Link>
             </Button>
-            <Button className = "nav-bar__link" onClick = {this.handleGoToResume}>Resume</Button>
+            <Button className = "nav-bar__button" onClick = {this.handleGoToResume}><span className = "nav-bar__link">Resume</span></Button>
             <Button className="nav-bar__button">
               <Link
                 activeClass="active"
