@@ -46,6 +46,7 @@ export default class Navbar extends Component{
                 smooth={true}
                 offset={-50}
                 duration={1000}
+                className = "nav-bar__link"
               >
                 About
               </Link>
@@ -58,11 +59,12 @@ export default class Navbar extends Component{
                 smooth={true}
                 offset={-50}
                 duration={1000}
+                className = "nav-bar__link"
               >
                 Projects
               </Link>
             </Button>
-            <Button className="nav-bar__button" onClick = {this.handleGoToResume}>Resume</Button>
+            <Button className = "nav-bar__link" onClick = {this.handleGoToResume}>Resume</Button>
             <Button className="nav-bar__button">
               <Link
                 activeClass="active"
@@ -71,8 +73,9 @@ export default class Navbar extends Component{
                 smooth={true}
                 offset={50}
                 duration={1000}
+                className = "nav-bar__link"
               >
-                Contact
+                <span className = "na-bar__span">Contact</span>
               </Link>
             </Button>
           </Grid>
