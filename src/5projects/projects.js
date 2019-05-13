@@ -11,9 +11,11 @@ import PizzaAndChills from "../images/pizza.png";
 import Geodi from "../images/Geodi.png";
 import BilgyBeagle from "../images/BilgyBeagle.png";
 import RandomQuote from "../images/RandomQuote.png";
+import DrumMachine from "../images/drummachine.png";
 
 const projectText = {
   Genius: `A notetaking app for the modern age`,
+  DrumMachine: "a React-Redux app that saves and plays a cool",
   Opposts: `a Firebase app: 6 images to tell a story`,
   PizzaAndChills: `Firebase app: Every software engineer builds one online-to-offline app in their lifetime.`,
   Geodi: "A home page",
@@ -23,6 +25,7 @@ const projectText = {
 
 const projectLink = {
   Genius: "#",
+  DrumMachine: "https://recelis.github.io/drummachine/",
   Opposts: "https://www.opposts.com",
   PizzaAndChills: "https://pizzaandchills.herokuapp.com/",
   Geodi: "https://recelis.github.io/Geodi/",
@@ -73,10 +76,10 @@ export default function Projects(props) {
         </Grid>
         <Grid xs={6} md={2}>
           <ProjectsStory
-            project="BilgyBeagle"
-            projectImg={BilgyBeagle}
-            projectText={projectText.BilgyBeagle}
-            projectLink={projectLink.BilgyBeagle}
+            project="DrumMachine"
+            projectImg={DrumMachine}
+            projectText={projectText.DrumMachine}
+            projectLink={projectLink.DrumMachine}
           />
         </Grid>
         <Grid xs={6} md={2}>
