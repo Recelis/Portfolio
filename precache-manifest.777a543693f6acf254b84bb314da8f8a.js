@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/nodejs.f8dab57d.png"
   },
   {
-    "revision": "ceb0c6b7e0d4c714640b",
-    "url": "/Portfolio/static/css/main.84ea3ec5.chunk.css"
+    "revision": "bb818ea9c552673a5c16",
+    "url": "/Portfolio/static/css/main.89e70432.chunk.css"
   },
   {
     "revision": "6b64d540f1308ee928ad",
@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/BilgyBeagle.011048da.png"
   },
   {
-    "revision": "f2a115134467ee9866aa",
-    "url": "/Portfolio/static/js/2.e6b18092.chunk.js"
+    "revision": "390afd774cc357da837c",
+    "url": "/Portfolio/static/js/2.03a70cc2.chunk.js"
   },
   {
-    "revision": "8714fe80c133c3524908b9952b38f463",
-    "url": "/Portfolio/static/media/jacky.8714fe80.png"
+    "revision": "4b06468fd884722d28f47f8092f79ef7",
+    "url": "/Portfolio/static/media/jacky.4b06468f.png"
   },
   {
     "revision": "d3fc34b10856e87f82c5bf2707ff6965",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/bootstrap.ffded238.svg"
   },
   {
-    "revision": "ceb0c6b7e0d4c714640b",
-    "url": "/Portfolio/static/js/main.283b186e.chunk.js"
+    "revision": "bb818ea9c552673a5c16",
+    "url": "/Portfolio/static/js/main.d0a82954.chunk.js"
   },
   {
     "revision": "8736e321a11929ead70d3c108c440f4e",
@@ -64,6 +64,10 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/Geodi.3eb9cf41.png"
   },
   {
+    "revision": "16a1d350805d1919f447e3101f1da389",
+    "url": "/Portfolio/static/media/naturesway.16a1d350.png"
+  },
+  {
     "revision": "40d1f5554584e7b975b137e73c4848b3",
     "url": "/Portfolio/static/media/RandomQuote.40d1f555.png"
   },
@@ -72,11 +76,11 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/drummachine.61eb091e.png"
   },
   {
-    "revision": "f2a115134467ee9866aa",
+    "revision": "390afd774cc357da837c",
     "url": "/Portfolio/static/css/2.fdfb6bef.chunk.css"
   },
   {
-    "revision": "07ce49ae37bd75d49ab6c86f49730a1e",
+    "revision": "99377658484bc0d579392882e0d0dedc",
     "url": "/Portfolio/index.html"
   }
 ];
