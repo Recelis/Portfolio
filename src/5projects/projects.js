@@ -9,15 +9,17 @@ import Genius from "../images/genius.png";
 import Opposts from "../images/village.jpg";
 import PizzaAndChills from "../images/pizza.png";
 import Geodi from "../images/Geodi.png";
-import BilgyBeagle from "../images/BilgyBeagle.png";
+import NaturesWayWater from "../images/naturesway.png";
 import RandomQuote from "../images/RandomQuote.png";
 import DrumMachine from "../images/drummachine.png";
+import BilgyBeagle from "../images/BilgyBeagle.png";
 
 const projectText = {
-  Genius: `A notetaking app for the modern age`,
+  Genius: "An app to learn better",
+  NaturesWayWater: "Simple HTML Website for Nature's Way Water Technologies",
   DrumMachine: "a React-Redux app that saves and plays a cool",
-  Opposts: `a Firebase app: 6 images to tell a story`,
-  PizzaAndChills: `Firebase app: Every software engineer builds one online-to-offline app in their lifetime.`,
+  Opposts: "a Firebase app: 6 images to tell a story",
+  PizzaAndChills: "Firebase app: Every software engineer builds one online-to-offline app in their lifetime.",
   Geodi: "A home page",
   BilgyBeagle: "a tribute page",
   RandomQuote: "an Ajax app"
@@ -25,6 +27,7 @@ const projectText = {
 
 const projectLink = {
   Genius: "#",
+  NatureswayWater:"http://natureswaywt.com/index.html",
   DrumMachine: "https://recelis.github.io/drummachine/",
   Opposts: "https://www.opposts.com",
   PizzaAndChills: "https://pizzaandchills.herokuapp.com/",
@@ -50,15 +53,23 @@ export default function Projects(props) {
             Look through my completed projects
           </h2>
         </Grid>
-        <Grid xs={6} md={2}>
+        <Grid xs>
           <ProjectsStory
-            project="Genius"
+            project="GeniusBook"
             projectImg={Genius}
             projectText={projectText.Genius}
             projectLink={projectLink.Genius}
           />
         </Grid>
-        <Grid xs={6} md={2}>
+        <Grid xs>
+          <ProjectsStory
+            project="Natures Way Water Technologies"
+            projectImg={NaturesWayWater}
+            projectText={projectText.NaturesWayWater}
+            projectLink={projectLink.NatureswayWater}
+          />
+        </Grid>
+        <Grid xs>
           <ProjectsStory
             project="Opposts"
             projectImg={Opposts}
@@ -66,7 +77,15 @@ export default function Projects(props) {
             projectLink={projectLink.Opposts}
           />
         </Grid>
-        <Grid xs={6} md={2}>
+        <Grid xs>
+          <ProjectsStory
+            project="Pizza&Chills"
+            projectImg={PizzaAndChills}
+            projectText={projectText.PizzaAndChills}
+            projectLink={projectLink.PizzaAndChills}
+          />
+        </Grid>
+        <Grid xs>
           <ProjectsStory
             project="Geodi"
             projectImg={Geodi}
@@ -74,7 +93,7 @@ export default function Projects(props) {
             projectLink={projectLink.Geodi}
           />
         </Grid>
-        <Grid xs={6} md={2}>
+        <Grid xs>
           <ProjectsStory
             project="DrumMachine"
             projectImg={DrumMachine}
@@ -82,7 +101,7 @@ export default function Projects(props) {
             projectLink={projectLink.DrumMachine}
           />
         </Grid>
-        <Grid xs={6} md={2}>
+        <Grid xs>
           <ProjectsStory
             project="RandomQuote"
             projectImg={RandomQuote}
@@ -90,12 +109,12 @@ export default function Projects(props) {
             projectLink={projectLink.RandomQuote}
           />
         </Grid>
-        <Grid xs={6} md={2}>
+        <Grid xs>
           <ProjectsStory
-            project="Pizza&Chills"
-            projectImg={PizzaAndChills}
-            projectText={projectText.PizzaAndChills}
-            projectLink={projectLink.PizzaAndChills}
+            project="BilgyBeagle"
+            projectImg={BilgyBeagle}
+            projectText={projectText.BilgyBeagle}
+            projectLink={projectLink.BilgyBeagle}
           />
         </Grid>
       </Grid>
