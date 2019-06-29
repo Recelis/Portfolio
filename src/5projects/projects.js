@@ -19,7 +19,7 @@ const projectText = {
   NaturesWayWater: "Simple HTML Website for Nature's Way Water Technologies",
   DrumMachine: "a React-Redux app that saves and plays a cool",
   Opposts: "a Firebase app: 6 images to tell a story",
-  PizzaAndChills: "Firebase app: Every software engineer builds one online-to-offline app in their lifetime.",
+  PizzaAndChills: "Firebase app: My once in a lifetime online-to-offline app.",
   Geodi: "A home page",
   BilgyBeagle: "a tribute page",
   RandomQuote: "an Ajax app"
@@ -63,7 +63,7 @@ export default function Projects(props) {
         </Grid>
         <Grid xs>
           <ProjectsStory
-            project="Natures Way Water Technologies"
+            project="Natures Way Water Tech"
             projectImg={NaturesWayWater}
             projectText={projectText.NaturesWayWater}
             projectLink={projectLink.NatureswayWater}
