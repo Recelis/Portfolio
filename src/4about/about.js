@@ -18,23 +18,13 @@ export default function About(props) {
         <Grid xs={12} md={6}>
           <h2 className="about__heading">About</h2>
           <p className="about__text">
-            Located in Brisbane and with two years experience, I am mainly a
-            MERN front-end developer, who knows a set of web developer languages
-            and frameworks. Such as HTML, CSS, Javascript, React, Redux,
-            Bootstrap, NodeJS, Material UI, MongoDB, mLab, Firebase, Jest, and
-            Enzyme.
-          </p>
-          <p className="about__text">
-            I am dedicated to making a subset of the general population’s lives
-            better.
+            Located in Brisbane and with two years experience, I am mainly a MERN front-end developer, who knows a set
+            of web developer languages and frameworks. Such as HTML, CSS, Javascript, React, Redux, Bootstrap, NodeJS,
+            Express, Mongoose, MongoDB, Firebase, Jest, and Enzyme.
           </p>
         </Grid>
         <Grid xs={12} md={6}>
-          <img
-            className="about__img"
-            src={VisualStudioCode}
-            alt="visual studio code image"
-          />
+          <img className="about__img" src={VisualStudioCode} alt="visual studio code image" />
         </Grid>
       </Grid>
     </section>
