@@ -39,12 +39,12 @@ p {
     text-align: left;
   }
 
-  .nav-bar__logo:hover{
-    color:rgb(56, 54, 54);
+  .nav-bar__logo:hover {
+    color: rgb(56, 54, 54);
   }
 
   .nav-bar__button {
-    display:none !important;
+    display: none !important;
   }
 
   .home {
@@ -62,11 +62,11 @@ p {
 
   .home__tagline {
     text-align: center;
-    margin:0px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
   }
 
   .home__image-large {
-    display:none;
+    display: none;
   }
 
   .home__image-small {
@@ -74,83 +74,87 @@ p {
   }
 
   .langbar {
-    padding-top:10px;
-    padding-bottom:10px;
-    background-color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
     box-shadow: 0px 0px 5px #cbd1d3;
   }
 
   .langbar__img {
-    display: block;
-    height:20px;
-    margin:0 auto;
-    filter: grayscale(70%);
+    /* display: block; */
+    height: 5px;
+    margin: 0 auto;
+    /* filter: grayscale(70%); */
   }
 
-  .langbar__img_hide{
-    display:none;
+  .langbar__img_hide {
+    display: none;
   }
 
-  .about{
-    padding:10px;
+  .about {
+    padding: 10px;
   }
 
-  .about__heading{
-    font-weight:bold;
-    font-size:24px;
-    text-align:left;
+  .about__heading {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
   }
 
-  .about__text{
-    font-size:14px;
-    text-align:left;
+  .about__text {
+    font-size: 14px;
+    text-align: left;
   }
 
-  .about__img{
-    width:100%;
+  .about__img {
+    width: 100%;
+  }
+
+  .about__skill__img {
+    max-height: 24px;
   }
 
   .projects {
-    width:100%;
-    margin:0 auto;
-    padding:10px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
   }
 
   .projects__heading {
     font-family: "Oswald", sans-serif;
-    text-align:left;
+    text-align: left;
     font-size: 24px;
     font-weight: bold;
-    padding-bottom:25px;
+    padding-bottom: 25px;
   }
 
   .projects__story {
     margin: 10px;
-    max-width:200px;
-    height:320px;
-    overflow:hidden;
-    border-radius:5px;
-    box-shadow:0px 0px 5px #888888;
+    max-width: 200px;
+    height: 320px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #888888;
   }
 
-  .projects__story:hover{
-    filter:grayscale(60%);
-    box-shadow:0px 0px 10px #888888;
+  .projects__story:hover {
+    filter: grayscale(60%);
+    box-shadow: 0px 0px 10px #888888;
   }
 
-  .projects__link{
+  .projects__link {
     color: rgb(58, 58, 58) !important;
     text-decoration: none !important;
   }
 
   .projects__img {
-    height:200px;
-    width:100%;
-    max-width:200px;
-    object-fit:cover;
-    margin:0 auto;
-    display:block;
-    border-radius:5px 5px 0px 0px;
+    height: 200px;
+    width: 100%;
+    max-width: 200px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    border-radius: 5px 5px 0px 0px;
   }
 
   .projects__title {
@@ -163,35 +167,35 @@ p {
 
   .projects__text {
     text-align: center;
-    font-size:12px;
+    font-size: 12px;
   }
 
   .contact {
-    width:80%;
-    margin:0 auto;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .contact__heading {
     font-family: "Oswald", sans-serif;
-    text-align:left;
+    text-align: left;
     font-size: 24px;
     font-weight: bold;
   }
 
-  .contact__form{
-    font-size:16px;
+  .contact__form {
+    font-size: 16px;
   }
 
   .contact__form-group {
-    font-size:16px;
+    font-size: 16px;
   }
 
   .contact__name {
-    width:100%;
+    width: 100%;
   }
 
-  .contact__control{
-    font-size:16px !important;
+  .contact__control {
+    font-size: 16px !important;
   }
 
   .contact__email {
@@ -200,13 +204,12 @@ p {
   .contact__message {
   }
 
-  .contact__warning{
-    color:red;
+  .contact__warning {
+    color: red;
   }
 
-
-  .copyright{
-    text-align:center;
+  .copyright {
+    text-align: center;
   }
 }
 
@@ -218,7 +221,7 @@ p {
   .nav-bar {
     position: fixed;
     background-color: rgb(255, 208, 0);
-    width:100%;
+    width: 100%;
     z-index: 1000;
   }
 
@@ -232,21 +235,21 @@ p {
     cursor: pointer;
   }
 
-  .nav-bar__logo:hover{
-    color:rgb(56, 54, 54);
+  .nav-bar__logo:hover {
+    color: rgb(56, 54, 54);
   }
 
   .nav-bar__button {
     margin: 10px 0px 10px 0px;
-    padding:0px;
-    display:block;
+    padding: 0px;
+    display: block;
   }
 
-  .nav-bar__link{
-    width:80px;
-    height:50px;
-    padding-top:20px;
-    margin:-10px;
+  .nav-bar__link {
+    width: 80px;
+    height: 50px;
+    padding-top: 20px;
+    margin: -10px;
     align-items: center;
     justify-content: center;
   }
@@ -265,63 +268,67 @@ p {
   }
 
   .home__tagline {
-    text-align:left;
-    width:80%;
+    text-align: left;
+    width: 80%;
   }
 
   .home__image-large {
-    width:60%;
+    width: 60%;
   }
 
   .home__image-small {
-    display:none;
+    display: none;
   }
 
   .langbar {
-    padding-top:10px;
-    padding-bottom:10px;
-    background-color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
     box-shadow: 0px 0px 5px #888888;
   }
 
   .langbar__img {
     display: block;
-    height:50px;
-    margin:0 auto;
+    height: 50px;
+    margin: 0 auto;
     filter: grayscale(70%);
   }
 
-  .about{
-    padding-top:50px;
-    width:80%;
-    margin:0 auto;
+  .about {
+    padding-top: 50px;
+    width: 80%;
+    margin: 0 auto;
   }
 
-  .about__heading{
-    font-weight:bold;
-    font-size:24px;
-    text-align:left;
+  .about__heading {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
   }
 
-  .about__text{
-    font-size:14px;
-    text-align:left;
-    width:90%;
+  .about__text {
+    font-size: 14px;
+    text-align: left;
+    width: 90%;
   }
 
-  .about__img{
-    width:100%;
+  .about__img {
+    width: 100%;
+  }
+
+  .about__skill__img {
+    height: 24px;
   }
 
   .projects {
-    width:80%;
-    margin:0 auto;
-    padding-top:50px;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
   }
 
   .projects__heading {
     font-family: "Oswald", sans-serif;
-    text-align:left;
+    text-align: left;
     font-size: 24px;
     font-weight: bold;
   }
@@ -329,30 +336,30 @@ p {
   .projects__story {
     margin: 10px;
     /* max-width:200px; */
-    height:350px;
-    overflow:hidden;
-    border-radius:5px;
-    box-shadow:0px 0px 5px #888888;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #888888;
   }
 
-  .projects__story:hover{
-    filter:grayscale(60%);
-    box-shadow:0px 0px 10px #888888;
+  .projects__story:hover {
+    filter: grayscale(60%);
+    box-shadow: 0px 0px 10px #888888;
   }
 
-  .projects__link{
+  .projects__link {
     color: rgb(58, 58, 58) !important;
     text-decoration: none !important;
   }
 
   .projects__img {
-    max-height:250px;
+    max-height: 250px;
     /* width:100%; */
     /* max-width:200px; */
-    object-fit:cover;
-    margin:0 auto;
-    display:block;
-    border-radius:5px 5px 0px 0px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    border-radius: 5px 5px 0px 0px;
   }
 
   .projects__title {
@@ -365,37 +372,37 @@ p {
 
   .projects__text {
     text-align: center;
-    font-size:12px;
-    max-width:200px;
-    margin:0 auto;
+    font-size: 12px;
+    max-width: 200px;
+    margin: 0 auto;
   }
 
   .contact {
-    width:80%;
-    margin:0 auto;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .contact__heading {
     font-family: "Oswald", sans-serif;
-    text-align:left;
+    text-align: left;
     font-size: 24px;
     font-weight: bold;
   }
 
-  .contact__form{
-    font-size:16px;
+  .contact__form {
+    font-size: 16px;
   }
 
   .contact__form-group {
-    font-size:16px;
+    font-size: 16px;
   }
 
   .contact__name {
-    width:100%;
+    width: 100%;
   }
 
-  .contact__control{
-    font-size:16px !important;
+  .contact__control {
+    font-size: 16px !important;
   }
 
   .contact__email {
@@ -404,11 +411,11 @@ p {
   .contact__message {
   }
 
-  .contact__warning{
-    color:red;
+  .contact__warning {
+    color: red;
   }
 
-  .copyright{
-    text-align:center;
+  .copyright {
+    text-align: center;
   }
 }
