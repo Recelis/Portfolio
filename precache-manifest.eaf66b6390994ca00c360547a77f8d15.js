@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f8dab57d048fabd69ea16c67e1615b86",
-    "url": "/Portfolio/static/media/nodejs.f8dab57d.png"
+    "revision": "8736e321a11929ead70d3c108c440f4e",
+    "url": "/Portfolio/static/media/visualstudiocode.8736e321.png"
   },
   {
-    "revision": "bb818ea9c552673a5c16",
-    "url": "/Portfolio/static/css/main.89e70432.chunk.css"
+    "revision": "e4be053d5e1fd9b02c8a",
+    "url": "/Portfolio/static/css/main.a92c2b07.chunk.css"
   },
   {
     "revision": "6b64d540f1308ee928ad",
@@ -16,12 +16,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/BilgyBeagle.011048da.png"
   },
   {
-    "revision": "390afd774cc357da837c",
-    "url": "/Portfolio/static/js/2.03a70cc2.chunk.js"
-  },
-  {
-    "revision": "4b06468fd884722d28f47f8092f79ef7",
-    "url": "/Portfolio/static/media/jacky.4b06468f.png"
+    "revision": "cb2facbd01740b1ad1a3",
+    "url": "/Portfolio/static/js/2.33f947c7.chunk.js"
   },
   {
     "revision": "d3fc34b10856e87f82c5bf2707ff6965",
@@ -40,12 +36,20 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/bootstrap.ffded238.svg"
   },
   {
-    "revision": "bb818ea9c552673a5c16",
-    "url": "/Portfolio/static/js/main.d0a82954.chunk.js"
+    "revision": "f8dab57d048fabd69ea16c67e1615b86",
+    "url": "/Portfolio/static/media/nodejs.f8dab57d.png"
   },
   {
-    "revision": "8736e321a11929ead70d3c108c440f4e",
-    "url": "/Portfolio/static/media/visualstudiocode.8736e321.png"
+    "revision": "4b06468fd884722d28f47f8092f79ef7",
+    "url": "/Portfolio/static/media/jacky.4b06468f.png"
+  },
+  {
+    "revision": "e4be053d5e1fd9b02c8a",
+    "url": "/Portfolio/static/js/main.2912d3dc.chunk.js"
+  },
+  {
+    "revision": "8ee926be8802a7d8adec1507757f4351",
+    "url": "/Portfolio/static/media/expressjs.8ee926be.png"
   },
   {
     "revision": "e2e181a170ea7ba8f059dc626f0aa7c9",
@@ -76,11 +80,11 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/drummachine.61eb091e.png"
   },
   {
-    "revision": "390afd774cc357da837c",
-    "url": "/Portfolio/static/css/2.fdfb6bef.chunk.css"
+    "revision": "cb2facbd01740b1ad1a3",
+    "url": "/Portfolio/static/css/2.6a69c559.chunk.css"
   },
   {
-    "revision": "99377658484bc0d579392882e0d0dedc",
+    "revision": "92ac5b4ca5302a8f6dc7f365fd30e7dc",
     "url": "/Portfolio/index.html"
   }
 ];
