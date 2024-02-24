@@ -11,18 +11,35 @@ export default class Navbar extends Component {
     this.handleGoToResume = this.handleGoToResume.bind(this);
   }
   handleGoToResume() {
-    window.open("https://drive.google.com/file/d/1WoRY2d9WObmNatBL5cg76Itz7q3Q7y50/view?usp=sharing");
+    window.open(
+      "https://drive.google.com/file/d/1WoRY2d9WObmNatBL5cg76Itz7q3Q7y50/view?usp=sharing"
+    );
   }
   render() {
     return (
       <header>
         <Grid className="nav-bar" container>
           <Grid item xs={6} sm={6}>
-            <Link activeClass="active" to="homepage" spy={true} smooth={true} offset={-50} duration={1000}>
+            <Link
+              activeClass="active"
+              to="homepage"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={1000}
+            >
               <h1 className="nav-bar__logo">JACKY LUI</h1>
             </Link>
           </Grid>
-          <Grid item xs={6} sm={6} className="nav-bar__group" container direction="row" justify="center">
+          <Grid
+            item
+            xs={6}
+            sm={6}
+            className="nav-bar__group"
+            container
+            direction="row"
+            justify="center"
+          >
             <Button className="nav-bar__button">
               <Link
                 activeClass="active"
