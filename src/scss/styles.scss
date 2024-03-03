@@ -1,5 +1,10 @@
 @import "bootstrap/scss/bootstrap";
 
-html body #app {
+html #app {
   height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow-y: scroll;
 }
