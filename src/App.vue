@@ -1,13 +1,19 @@
 <script setup>
 import Navbar from "./components/Navbar.vue";
+import Splash from "./components/Splash.vue";
+import About from "./components/About.vue";
 import Portfolio from "./components/Portfolio.vue";
+import Footer from "./components/Footer.vue";
 </script>
 
 <template>
   <Navbar />
+  <Splash />
+  <About />
   <Portfolio />
+  <Footer />
 </template>
-
+˜
 <style scoped>
 .logo {
   height: 6em;
